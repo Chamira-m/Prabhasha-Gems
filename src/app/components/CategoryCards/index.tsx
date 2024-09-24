@@ -1,10 +1,10 @@
 import React from "react";
 import SingleCard from "./singleCard";
 import { CategoryCardType } from "../types/categoryCardTypes";
-import sapphire from "../../../public/images/home/categoryCard/sapphire.png";
-import jewellery from "../../../public/images/home/categoryCard/jewellery.png";
-import fine from "../../../public/images/home/categoryCard/fine.png";
-import luxury from "../../../public/images/home/categoryCard/luxury.png";
+import sapphire from "../../../public/images/home/categoryCards/sapphire.png";
+import jewellery from "../../../public/images/home/categoryCards/jewellery.png";
+import fine from "../../../public/images/home/categoryCards/fine.png";
+import luxury from "../../../public/images/home/categoryCards/luxury.png";
 
 const CategoryCards = () => {
   const categoryCardData: CategoryCardType[] = [
@@ -21,7 +21,7 @@ const CategoryCards = () => {
     {
       id: 3,
       image: fine,
-      title: "FINE Jeweller ",
+      title: "FINE Jewellery ",
     },
     {
       id: 4,
