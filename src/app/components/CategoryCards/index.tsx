@@ -21,7 +21,7 @@ const CategoryCards = () => {
     {
       id: 3,
       image: fine,
-      title: "FINE Jewellery ",
+      title: "FINE Jeweller ",
     },
     {
       id: 4,
