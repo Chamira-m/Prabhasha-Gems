@@ -91,7 +91,7 @@ function SectionTwo() {
             />
           ))}
         </div>
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
             className="w-[200px] h-[40px] text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
@@ -100,7 +100,7 @@ function SectionTwo() {
           </Link>
         </div>
       </div>
-      <div className="block lg:hidden mt-2">
+      <div className="block md:hidden mt-2">
         <h1 className="text-[17px] text-blueGray text-left">
           The Art of <span className="text-darkMint">Gemstones,</span>{" "}
         </h1>
