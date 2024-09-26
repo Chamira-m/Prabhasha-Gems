@@ -21,8 +21,12 @@ const SingleProductCard = ({
         objectFit="cover"
         loading="lazy"
       />
-      <h1 className="text-blueGray text-[9px] lg:text-[17px]">{title}</h1>
-      <h1 className="text-darkMint text-[9px] lg:text-[17px]">LKR {price}</h1>
+      <h1 className="text-blueGray text-[9px] lg:text-[17px] text-center">
+        {title}
+      </h1>
+      <h1 className="text-darkMint text-[9px] lg:text-[17px] text-center">
+        LKR {price}
+      </h1>
     </div>
   );
 };
