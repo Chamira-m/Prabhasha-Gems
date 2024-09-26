@@ -39,7 +39,7 @@ const SectionOne = () => {
 
   return (
     <>
-      <div className="xl:block hidden grid-cols-2 w-full ">
+      <div className="lg:block hidden grid-cols-2 w-full ">
         <div className="grid grid-cols-2">
           <div>
             <div className="grid grid-cols-2 gap-4">
@@ -101,7 +101,7 @@ const SectionOne = () => {
           </div>
         </div>
       </div>
-      <div className="block xl:hidden">
+      <div className="block lg:hidden">
         <h2 className="text-[17x] font-bold text-blueGray text-center">
           SHINE WITH CONFIDENCE
         </h2>

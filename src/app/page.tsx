@@ -1,4 +1,5 @@
 import CategoryCards from "./components/CategoryCards";
+import SectionTwo from "./components/Common/SectionTwo";
 import SectionOne from "./components/SectionOne";
 import Video from "./components/Video";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Video />
       <CategoryCards />
       <SectionOne />
+      <SectionTwo />
     </div>
   );
 }
