@@ -23,7 +23,7 @@ const SingleCard = ({
           objectFit="cover"
           loading="lazy"
         />
-        <h2 className="font-bold text-blueGray uppercase lg:text-2xl text-sm">
+        <h2 className="font-bold text-blueGray uppercase lg:text-2xl text-xs">
           {title}
         </h2>
       </div>
