@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image"; // Import Image from next/image for optimized images
+import Image from "next/image";
 import { CategoryCardType } from "../types/categoryCardTypes";
 
 const SingleCard = ({
