@@ -129,10 +129,10 @@ function SectionTwo() {
           </div>
         </div>
 
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
-            className="w-[93px] h-[20px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
+            className="w-[93px] h-[20px] outline bg-white text-center py-1 font-semibold text-[7px] text-lightGray "
           >
             Explore More
           </Link>
