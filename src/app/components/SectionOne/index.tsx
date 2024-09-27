@@ -61,13 +61,13 @@ const SectionOne = () => {
           </div>
 
           <div className="text-center">
-            <h2 className="text-[40px] font-bold text-blueGray text-right">
+            <h2 className="text-[40px] font-bold text-blueGray text-right font-mulish-black">
               SHINE WITH CONFIDENCE
             </h2>
-            <h2 className="text-[40px] text-darkMint text-right">
+            <h2 className="text-[40px] text-darkMint text-right font-mulish-semiBold">
               SPARKLE WITH QUALITY
             </h2>
-            <p className="text-base text-blueGray text-justify mt-2">
+            <p className="text-base text-blueGray text-justify mt-2 font-mulish-blackItalic">
               we believe that jewellery is more than just an accessory; its a
               reflection of your inner confidence and unique style. Each piece
               in our collection is carefully crafted from the finest gemstones
@@ -102,13 +102,13 @@ const SectionOne = () => {
         </div>
       </div>
       <div className="block lg:hidden">
-        <h2 className="text-[17x] font-bold text-blueGray text-center">
+        <h2 className="text-[17x] font-mulish-black text-blueGray text-center">
           SHINE WITH CONFIDENCE
         </h2>
-        <h2 className="text-[17px] text-darkMint text-center">
+        <h2 className="text-[17px] text-darkMint text-center font-mulish-semiBold">
           SPARKLE WITH QUALITY
         </h2>
-        <p className="text-[8px] text-blueGray text-justify mt-2">
+        <p className="text-[8px] text-blueGray text-justify mt-2 font-mulish-lightItalic">
           we believe that jewellery is more than just an accessory; its a
           reflection of your inner confidence and unique style. Each piece in
           our collection is carefully crafted from the finest gemstones and

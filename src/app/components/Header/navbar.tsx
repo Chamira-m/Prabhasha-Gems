@@ -129,12 +129,12 @@ export const Navbar = () => {
         </button>
 
         {/* Desktop Menu */}
-        <nav className="hidden xl:flex items-center space-x-28">
+        <nav className="hidden xl:flex items-center space-x-20">
           {menuData.map((menu) => (
             <div key={menu.title} className="relative group">
               <Link
                 href={menu.path}
-                className="hover:text-gray-700 text-darkMint"
+                className="hover:text-gray-700 text-darkMint font-mulish-extraBold text-[18px]"
               >
                 {menu.title}
               </Link>
@@ -144,7 +144,7 @@ export const Navbar = () => {
                     <div key={submenu.title} className="group relative">
                       <Link
                         href={submenu.path}
-                        className="block hover:text-gray-700 text-darkBlue"
+                        className="block hover:text-gray-700 text-darkBlue font-mulish-medium"
                       >
                         {submenu.title}
                       </Link>
@@ -154,7 +154,7 @@ export const Navbar = () => {
                             <Link
                               key={sub2menu.title}
                               href={sub2menu.path}
-                              className="block hover:text-gray-700 ml-4 text-blueGray"
+                              className="block hover:text-gray-700 ml-4 text-blueGray font-mulish-medium"
                             >
                               {sub2menu.title}
                             </Link>
@@ -186,7 +186,9 @@ export const Navbar = () => {
                       className="flex items-center justify-between w-full text-left"
                       onClick={() => handleSubmenuToggle(menu.title, menu.path)}
                     >
-                      <span className="text-darkMint">{menu.title}</span>
+                      <span className="text-darkMint font-mulish-extraBold">
+                        {menu.title}
+                      </span>
                       {menu.submenu && (
                         <svg
                           className={`w-4 h-4 transition-transform duration-200 ${
@@ -216,7 +218,7 @@ export const Navbar = () => {
                                 handleSub2menuToggle(submenu.title)
                               }
                             >
-                              <span className="text-darkBlue">
+                              <span className="text-darkBlue font-mulish-medium">
                                 {submenu.title}
                               </span>
                               {submenu.sub2menu && (
@@ -247,7 +249,7 @@ export const Navbar = () => {
                                     <Link
                                       key={sub2menu.title}
                                       href={sub2menu.path}
-                                      className="block hover:text-gray-700 mb-2 text-blueGray"
+                                      className="block hover:text-gray-700 mb-2 text-blueGray font-mulish-medium"
                                       onClick={closeMenu}
                                     >
                                       {sub2menu.title}

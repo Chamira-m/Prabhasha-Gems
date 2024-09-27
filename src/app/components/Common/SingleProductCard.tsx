@@ -10,7 +10,7 @@ const SingleProductCard = ({
   const { image, title, price } = singleProductcardType;
 
   return (
-    <div className="bg-white rounded-xl shadow-md w-36 h-52 lg:w-[288px] lg:h-[393px] flex flex-col items-center justify-center">
+    <div className="bg-white rounded-xl shadow-md w-40 h-52 lg:w-[288px] lg:h-[393px] flex flex-col items-center justify-center">
       <Image
         className="object-cover w-36 h-36 lg:w-72 lg:h-72"
         src={image}
@@ -21,10 +21,10 @@ const SingleProductCard = ({
         objectFit="cover"
         loading="lazy"
       />
-      <h1 className="text-blueGray text-[9px] lg:text-[17px] text-center">
+      <h1 className="text-blueGray text-[9px] lg:text-[17px] text-center font-mulish-semiBold">
         {title}
       </h1>
-      <h1 className="text-darkMint text-[9px] lg:text-[17px] text-center">
+      <h1 className="text-darkMint text-[9px] lg:text-[17px] text-center font-mulish-semiBold">
         LKR {price}
       </h1>
     </div>

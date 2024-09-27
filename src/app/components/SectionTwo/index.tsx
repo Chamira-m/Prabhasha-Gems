@@ -1,14 +1,14 @@
 import React from "react";
-import { singleProductcardType } from "../../types/singleProductcardType";
-import Im1 from "../../../../public/images/home/sectionTwo/section21.png";
-import Im2 from "../../../../public/images/home/sectionTwo/section22.png";
-import Im3 from "../../../../public/images/home/sectionTwo/section23.png";
-import Im4 from "../../../../public/images/home/sectionTwo/section24.png";
-import Im5 from "../../../../public/images/home/sectionTwo/section25.png";
-import Im6 from "../../../../public/images/home/sectionTwo/section26.png";
-import Im7 from "../../../../public/images/home/sectionTwo/section27.png";
-import Im8 from "../../../../public/images/home/sectionTwo/section28.png";
-import SingleProductCard from "../SingleProductCard";
+import { singleProductcardType } from "../types/singleProductcardType";
+import Im1 from "../../../public/images/home/sectionTwo/section21.png";
+import Im2 from "../../../public/images/home/sectionTwo/section22.png";
+import Im3 from "../../../public/images/home/sectionTwo/section23.png";
+import Im4 from "../../../public/images/home/sectionTwo/section24.png";
+import Im5 from "../../../public/images/home/sectionTwo/section25.png";
+import Im6 from "../../../public/images/home/sectionTwo/section26.png";
+import Im7 from "../../../public/images/home/sectionTwo/section27.png";
+import Im8 from "../../../public/images/home/sectionTwo/section28.png";
+import SingleProductCard from "../Common/SingleProductCard";
 import Link from "next/link";
 
 function SectionTwo() {
@@ -68,12 +68,12 @@ function SectionTwo() {
   return (
     <>
       <div className="md:block hidden mt-5">
-        <h1 className="text-[40px] text-blueGray text-center">
+        <h1 className="text-[40px] text-blueGray text-center font-mulish-semiBold">
           The Art of <span className="text-darkMint">Gemstones,</span> The
           Majesty of
           <span className="text-darkMint"> Sapphires.</span>{" "}
         </h1>
-        <p className="text-base text-blueGray text-center mt-2 mb-4">
+        <p className="text-base text-blueGray text-center mt-2 mb-4 font-mulish-lightItalic">
           Discover the true artistry of gemstones and the unmatched majesty of
           Ceylons finest sapphires. Each piece in our collection is a
           celebration of nature’s brilliance, expertly crafted to reveal the
@@ -94,21 +94,21 @@ function SectionTwo() {
         <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
-            className="w-[200px] h-[40px] text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
+            className="font-mulish-semiBold w-[200px] h-[40px] text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
           >
             FIND MORE SAPPHIRES{" "}
           </Link>
         </div>
       </div>
       <div className="block md:hidden mt-2">
-        <h1 className="text-[17px] text-blueGray text-left">
+        <h1 className="text-[17px] text-blueGray text-left font-mulish-semiBold">
           The Art of <span className="text-darkMint">Gemstones,</span>{" "}
         </h1>
-        <h1 className="text-[17px] text-blueGray text-left">
+        <h1 className="text-[17px] text-blueGray text-left font-mulish-semiBold">
           The Majesty of
           <span className="text-darkMint"> Sapphires.</span>
         </h1>
-        <p className="text-[8px] text-blueGray text-justify mt-2 mb-4">
+        <p className="text-[8px] text-blueGray text-justify mt-2 mb-4 font-mulish-lightItalic">
           Discover the true artistry of gemstones and the unmatched majesty of
           Ceylons finest sapphires. Each piece in our collection is a
           celebration of nature’s brilliance, expertly crafted to reveal the
@@ -132,9 +132,9 @@ function SectionTwo() {
         <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
-            className="w-[93px] h-[20px] outline bg-white text-center py-1 font-semibold text-[7px] text-lightGray "
+            className="font-mulish-semiBold w-[93px] h-[20px] outline bg-white text-center py-1 font-semibold text-[7px] text-lightGray "
           >
-            Explore More
+            FIND MORE SAPPHIRES
           </Link>
         </div>
       </div>
