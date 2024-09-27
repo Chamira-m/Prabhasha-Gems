@@ -67,7 +67,7 @@ const SectionOne = () => {
             <h2 className="text-[40px] text-darkMint text-right font-mulish-semiBold">
               SPARKLE WITH QUALITY
             </h2>
-            <p className="text-base text-blueGray text-justify mt-2 font-mulish-blackItalic">
+            <p className="text-base text-blueGray text-justify mt-2 font-mulish-lightItalic">
               we believe that jewellery is more than just an accessory; its a
               reflection of your inner confidence and unique style. Each piece
               in our collection is carefully crafted from the finest gemstones
