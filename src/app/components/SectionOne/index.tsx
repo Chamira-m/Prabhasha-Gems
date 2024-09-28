@@ -39,10 +39,10 @@ const SectionOne = () => {
 
   return (
     <>
-      <div className="lg:block hidden w-full ">
+      <div className="md:block hidden w-full ">
         <div className="grid grid-cols-2">
           <div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 md:gap-3 lg:gap-3 xl:gap-4">
               {limitedProducts.map((product) => (
                 <SingleProductCard
                   key={product.id}
@@ -53,7 +53,7 @@ const SectionOne = () => {
             <div className="mt-8 flex justify-center">
               <Link
                 href="/about"
-                className="w-[140px] h-[40px] text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
+                className="md:w-[100px] md:h-[28px] lg:w-[150px] lg:h-[34px] xl:w-[140px] xl:h-[40px] md:text-[10px] lg:text-[12px] xl:text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
               >
                 Explore More
               </Link>
@@ -61,13 +61,13 @@ const SectionOne = () => {
           </div>
 
           <div className="text-center">
-            <h2 className="text-[40px] font-bold text-blueGray text-right font-mulish-black">
+            <h2 className="md:text-[20px] lg:text-[32px] xl:text-[40px] font-bold text-blueGray text-right font-mulish-black">
               SHINE WITH CONFIDENCE
             </h2>
-            <h2 className="text-[40px] text-darkMint text-right font-mulish-semiBold">
+            <h2 className="md:text-[20px] lg:text-[32px] text-[40px] text-darkMint text-right font-mulish-semiBold">
               SPARKLE WITH QUALITY
             </h2>
-            <p className="text-base text-blueGray text-justify mt-2 font-mulish-lightItalic">
+            <p className="md:text-[10px] lg:text-[16px] xl:text-base text-blueGray text-justify mt-2 font-mulish-lightItalic">
               we believe that jewellery is more than just an accessory; its a
               reflection of your inner confidence and unique style. Each piece
               in our collection is carefully crafted from the finest gemstones
@@ -79,7 +79,7 @@ const SectionOne = () => {
               story of unparalleled quality.
             </p>
             <Image
-              className=" w-full h-[281px] mt-10"
+              className=" w-full md:h-[125px] lg:h-[175px] xl:h-[281px] mt-10"
               src={ImageOne}
               alt="ImageOne"
               width={100}
@@ -89,7 +89,7 @@ const SectionOne = () => {
               loading="lazy"
             />
             <Image
-              className=" w-full h-[281px] mt-3"
+              className=" w-full md:h-[125px] lg:h-[175px] xl:h-[281px] mt-3"
               src={ImageTwo}
               alt="ImageTwo"
               width={100}
@@ -101,7 +101,7 @@ const SectionOne = () => {
           </div>
         </div>
       </div>
-      <div className="block lg:hidden">
+      <div className="block md:hidden">
         <h2 className="text-[17x] font-mulish-black text-blueGray text-center">
           SHINE WITH CONFIDENCE
         </h2>

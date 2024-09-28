@@ -68,12 +68,12 @@ function SectionTwo() {
   return (
     <>
       <div className="md:block hidden mt-5">
-        <h1 className="text-[40px] text-blueGray text-center font-mulish-semiBold">
+        <h1 className="md:text-[28px] lg:text-[36px] xl:text-[40px] text-blueGray text-center font-mulish-semiBold">
           The Art of <span className="text-darkMint">Gemstones,</span> The
           Majesty of
           <span className="text-darkMint"> Sapphires.</span>{" "}
         </h1>
-        <p className="text-base text-blueGray text-center mt-2 mb-4 font-mulish-lightItalic">
+        <p className="md:text[12px] lg:text-[16px] xl:text-base text-blueGray text-center mt-2 mb-4 font-mulish-lightItalic">
           Discover the true artistry of gemstones and the unmatched majesty of
           Ceylons finest sapphires. Each piece in our collection is a
           celebration of nature’s brilliance, expertly crafted to reveal the
@@ -83,7 +83,7 @@ function SectionTwo() {
           the elegance and timeless beauty that only the finest gemstones can
           offer.
         </p>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 md:gap-3 lg:gap-3 xl:gap-4">
           {limitedProducts.map((product) => (
             <SingleProductCard
               key={product.id}
@@ -94,9 +94,9 @@ function SectionTwo() {
         <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
-            className="font-mulish-semiBold w-[210px] h-[40px] text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
+            className="font-mulish-semiBold md:w-[140px] md:h-[28px] lg:w-[180px] lg:h-[36px] xl:w-[210px] xl:h-[36px] md:text-[10px] lg:text-[12px] xl:text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
           >
-            FIND MORE SAPPHIRES{" "}
+            FIND MORE SAPPHIRES
           </Link>
         </div>
       </div>

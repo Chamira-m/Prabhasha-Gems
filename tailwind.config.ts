@@ -7,6 +7,16 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      xs: "375px", // for small devices like iPhone SE
+      sm: "640px", // for mobile devices
+      md: "768px", // for tablets and larger phones
+      lg: "1024px", // for small laptops and iPad Pro
+      xl: "1280px", // for 13-inch MacBook Air
+      "2xl": "1440px", // for 13-inch MacBook Pro and larger monitors
+      "3xl": "1920px", // for 16-inch MacBook Pro and larger monitors
+      "4xl": "2560px", // for very large monitors
+    },
     extend: {
       colors: {
         lightMint: "#D5F9FE",

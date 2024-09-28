@@ -36,11 +36,11 @@ function SectionThree() {
   const limitedProducts = singleProdutData.slice(0, 2);
   return (
     <>
-      <div className="md:block hidden">
+      <div className="md:block hidden w-full mb-2">
         {" "}
         <div className="grid grid-cols-2">
           <Image
-            className=" w-full h-[770px]"
+            className="md:w-full md:h-[400px] lg:w-full lg:h-[600px] xl:w-full xl:h-[770px] px-3"
             src={Section3}
             alt="ImageOne"
             width={100}
@@ -49,17 +49,17 @@ function SectionThree() {
             objectFit="cover"
             loading="lazy"
           />
-          <div className="text-center ml-2">
-            <h2 className="text-[40px] text-darkBlue font-mulish-semiBold">
-              <span className="text-darkMint text-[40px] font-mulish-extraBold">
+          <div className="text-center">
+            <h2 className="md:text-[18px] lg:text-[30px] xl:text-[40px] text-darkBlue font-mulish-semiBold">
+              <span className="text-darkMint md:text-[18px] lg:text-[30px] xl:text-[40px] font-mulish-extraBold">
                 Fine Jewelry
               </span>
               <span> for Life’s</span>
             </h2>
-            <h2 className="text-[40px] text-darkBlue font-mulish-semiBold gap-4">
+            <h2 className="md:text-[18px] lg:text-[30px] xl:text-[40px] text-darkBlue font-mulish-semiBold gap-4">
               Finest Moments
             </h2>
-            <div className=" flex justify-between flex-wrap ml-10 mt-4">
+            <div className=" flex justify-between flex-wrap ml-10 lg:mt-3 xl:mt-4">
               {limitedProducts.map((product) => (
                 <SingleProductCard
                   key={product.id}
@@ -67,7 +67,7 @@ function SectionThree() {
                 />
               ))}
             </div>
-            <p className="text-[16px] text-blueGray text-justify mt-10 font-mulish-lightItalic">
+            <p className="md:text-[10px] lg:text-[12px] xl:text-[16px] text-blueGray text-justify md:mt-2 lg:mt-6 xl:mt-10 font-mulish-lightItalic">
               Celebrate life’s most precious moments with our exquisite fine
               jewelry. Each piece is thoughtfully designed and meticulously
               crafted to honor the milestones that matter most. Whether it’s a
@@ -79,19 +79,17 @@ function SectionThree() {
             <div className="mt-8 flex justify-center">
               <Link
                 href="/about"
-                className="w-[230px] h-[39px] outline bg-white text-center p-1 font-semibold text-[15px] text-lightGray "
+                className="md:w-[130px] md:h-[24px] lg:w-[180px] lg:h-[30px] xl:w-[230px] xl:h-[36px] md:text-[10px] lg:text-[12px] xl:text-[15px] outline bg-white text-center p-1 font-semibold  text-lightGray "
               >
-                FIND MORE FINE JEWELRY{" "}
+                FIND MORE FINE JEWELRY
               </Link>
             </div>
           </div>
-        </div>{" "}
+        </div>
       </div>
       <div className="block md:hidden">
-        {" "}
         <div className="grid grid-cols-3">
           <div className="col-span-1">
-            {" "}
             <Image
               className=" w-full h-[147px]"
               src={Section3}
@@ -137,7 +135,7 @@ function SectionThree() {
             href="/about"
             className="w-[120px] h-[18px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
           >
-            FIND MORE FINE JEWELRY{" "}
+            FIND MORE FINE JEWELRY
           </Link>
         </div>
       </div>
