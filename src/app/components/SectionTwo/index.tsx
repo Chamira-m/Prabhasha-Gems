@@ -132,7 +132,7 @@ function SectionTwo() {
         <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
-            className="font-mulish-semiBold w-[93px] h-[20px] outline bg-white text-center py-1 font-semibold text-[7px] text-lightGray "
+            className="font-mulish-semiBold w-[100px] h-[20px] outline bg-white text-center py-1 font-semibold text-[7px] text-lightGray "
           >
             FIND MORE SAPPHIRES
           </Link>

@@ -172,7 +172,7 @@ export const Navbar = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div
-            className="fixed inset-0 bg-[#545454B3] z-50 transition-opacity duration-300 opacity-100"
+            className="fixed inset-0 z-50 transition-opacity duration-300 opacity-100"
             id="out_slider"
           >
             <div

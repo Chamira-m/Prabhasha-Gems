@@ -119,7 +119,7 @@ const SectionOne = () => {
           confidence, and let every piece you wear tell a story of unparalleled
           quality.
         </p>
-        <div className="flex justify-center flex-wrap gap-10 mt-2">
+        <div className="flex justify-center flex-wrap gap-7 mt-2">
           {limitedProductsMobile.map((product) => (
             <SingleProductCard
               key={product.id}
