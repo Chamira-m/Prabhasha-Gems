@@ -1,0 +1,148 @@
+import React from "react";
+import Image from "next/image";
+import Section3 from "../../../public/images/home/section3.png";
+import SingleProductCard from "../Common/SingleProductCard";
+import { singleProductcardType } from "../types/singleProductcardType";
+import single from "../../../public/images/home/singleCard1.png";
+import Link from "next/link";
+
+function SectionThree() {
+  const singleProdutData: singleProductcardType[] = [
+    {
+      id: 1,
+      image: single,
+      title: "Blue Sapphire White Gold earrings",
+      price: "153,990",
+    },
+    {
+      id: 2,
+      image: single,
+      title: "Blue Sapphire White Gold earrings ",
+      price: "153,990",
+    },
+    {
+      id: 3,
+      image: single,
+      title: "Blue Sapphire White Gold earrings",
+      price: "153,990",
+    },
+    {
+      id: 4,
+      image: single,
+      title: "Blue Sapphire White Gold earrings",
+      price: "153,990",
+    },
+  ];
+  const limitedProducts = singleProdutData.slice(0, 2);
+  return (
+    <>
+      <div className="md:block hidden">
+        {" "}
+        <div className="grid grid-cols-2">
+          <Image
+            className=" w-full h-[770px]"
+            src={Section3}
+            alt="ImageOne"
+            width={100}
+            height={100}
+            layout="fixed"
+            objectFit="cover"
+            loading="lazy"
+          />
+          <div className="text-center ml-2">
+            <h2 className="text-[40px] text-darkBlue font-mulish-semiBold">
+              <span className="text-darkMint text-[40px] font-mulish-extraBold">
+                Fine Jewelry
+              </span>
+              <span> for Life’s</span>
+            </h2>
+            <h2 className="text-[40px] text-darkBlue font-mulish-semiBold gap-4">
+              Finest Moments
+            </h2>
+            <div className=" flex justify-between flex-wrap ml-10 mt-4">
+              {limitedProducts.map((product) => (
+                <SingleProductCard
+                  key={product.id}
+                  singleProductcardType={product}
+                />
+              ))}
+            </div>
+            <p className="text-[16px] text-blueGray text-justify mt-10 font-mulish-lightItalic">
+              Celebrate life’s most precious moments with our exquisite fine
+              jewelry. Each piece is thoughtfully designed and meticulously
+              crafted to honor the milestones that matter most. Whether it’s a
+              timeless gift or a personal treasure, our fine jewelry captures
+              the essence of elegance and grace, making every moment
+              unforgettable. Embrace the luxury and beauty that define life’s
+              finest moments.
+            </p>
+            <div className="mt-8 flex justify-center">
+              <Link
+                href="/about"
+                className="w-[218px] h-[39px] outline bg-white text-center p-1 font-semibold text-[15px] text-lightGray "
+              >
+                FIND MORE FINE JEWELRY{" "}
+              </Link>
+            </div>
+          </div>
+        </div>{" "}
+      </div>
+      <div className="block md:hidden">
+        {" "}
+        <div className="grid grid-cols-3">
+          <div className="col-span-1">
+            {" "}
+            <Image
+              className=" w-full h-[147px]"
+              src={Section3}
+              alt="ImageOne"
+              width={100}
+              height={100}
+              layout="fixed"
+              objectFit="cover"
+              loading="lazy"
+            />
+          </div>
+          <div className="col-span-2 text-left ml-2">
+            <h2 className="text-[17px] text-darkBlue font-mulish-semiBold">
+              <span className="text-darkMint text-[17px] font-mulish-extraBold ">
+                Fine Jewelry
+              </span>
+              <span> for Life’s</span>
+            </h2>
+            <h2 className="text-[17px] text-darkBlue font-mulish-semiBold gap-4">
+              Finest Moments
+            </h2>
+            <p className="text-[8px] text-blueGray mt-3 text-justify font-mulish-lightItalic">
+              Celebrate life’s most precious moments with our exquisite fine
+              jewelry. Each piece is thoughtfully designed and meticulously
+              crafted to honor the milestones that matter most. Whether it’s a
+              timeless gift or a personal treasure, our fine jewelry captures
+              the essence of elegance and grace, making every moment
+              unforgettable. Embrace the luxury and beauty that define life’s
+              finest moments.
+            </p>
+          </div>
+        </div>
+        <div className=" flex justify-center flex-wrap mt-4 gap-7">
+          {limitedProducts.map((product) => (
+            <SingleProductCard
+              key={product.id}
+              singleProductcardType={product}
+            />
+          ))}
+        </div>
+        <div className="mt-8 flex justify-center mb-2">
+          <Link
+            href="/about"
+            className="w-[100px] h-[18px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
+          >
+            FIND MORE FINE JEWELRY{" "}
+          </Link>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default SectionThree;

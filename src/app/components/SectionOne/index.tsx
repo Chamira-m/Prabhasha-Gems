@@ -39,7 +39,7 @@ const SectionOne = () => {
 
   return (
     <>
-      <div className="lg:block hidden grid-cols-2 w-full ">
+      <div className="lg:block hidden w-full ">
         <div className="grid grid-cols-2">
           <div>
             <div className="grid grid-cols-2 gap-4">

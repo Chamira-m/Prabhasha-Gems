@@ -2,6 +2,7 @@ import CategoryCards from "./components/CategoryCards";
 import SectionTwo from "./components/SectionTwo";
 import SectionOne from "./components/SectionOne";
 import Video from "./components/Video";
+import SectionThree from "./components/SectionThree";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <CategoryCards />
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
     </div>
   );
 }

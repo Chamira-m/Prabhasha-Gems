@@ -102,11 +102,17 @@ function SectionTwo() {
       </div>
       <div className="block md:hidden mt-2">
         <h1 className="text-[17px] text-blueGray text-left font-mulish-semiBold">
-          The Art of <span className="text-darkMint">Gemstones,</span>{" "}
+          The Art of{" "}
+          <span className="text-darkMint font-mulish-extraBold">
+            Gemstones,
+          </span>{" "}
         </h1>
         <h1 className="text-[17px] text-blueGray text-left font-mulish-semiBold">
           The Majesty of
-          <span className="text-darkMint"> Sapphires.</span>
+          <span className="text-darkMint font-mulish-extraBold">
+            {" "}
+            Sapphires.
+          </span>
         </h1>
         <p className="text-[8px] text-blueGray text-justify mt-2 mb-4 font-mulish-lightItalic">
           Discover the true artistry of gemstones and the unmatched majesty of
