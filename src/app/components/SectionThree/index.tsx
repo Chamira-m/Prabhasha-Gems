@@ -135,7 +135,7 @@ function SectionThree() {
         <div className="mt-8 flex justify-center mb-2">
           <Link
             href="/about"
-            className="w-[100px] h-[18px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
+            className="w-[120px] h-[18px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
           >
             FIND MORE FINE JEWELRY{" "}
           </Link>

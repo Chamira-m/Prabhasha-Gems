@@ -125,7 +125,7 @@ function SectionTwo() {
           offer.
         </p>
         <div className="flex justify-center">
-          <div className="grid grid-cols-2 gap-10 mt-2">
+          <div className="grid grid-cols-2 gap-7 mt-2">
             {limitedProductsMobile.map((product) => (
               <SingleProductCard
                 key={product.id}
@@ -138,7 +138,7 @@ function SectionTwo() {
         <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
-            className="font-mulish-semiBold w-[100px] h-[20px] outline bg-white text-center py-1 font-semibold text-[7px] text-lightGray "
+            className="font-mulish-semiBold w-[110px] h-[20px] outline bg-white text-center py-1 font-semibold text-[7px] text-lightGray "
           >
             FIND MORE SAPPHIRES
           </Link>
