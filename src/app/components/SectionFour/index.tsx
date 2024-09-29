@@ -66,7 +66,7 @@ function SectionFour() {
               loading="lazy"
             />
             <div>
-              <p className="xs:text-[8px] sm:text-[10px] text-blueGray text-justify mt-2 font-mulish-lightItalic ml-4">
+              <p className="xs:text-[8px] sm:text-[10px] text-blueGray text-justify mt-2 font-mulish-lightItalic ml-2">
                 Make every celebration unforgettable with our collection of
                 timeless gifts. Thoughtfully curated and beautifully crafted,
                 each piece is designed to elevate any occasion, turning special
@@ -76,7 +76,7 @@ function SectionFour() {
                 beauty that captivates, find the perfect gift to express your
                 heart and leave a lasting impression.
               </p>
-              <div className="mt-2 flex justify-self-stretch ml-4">
+              <div className="mt-2 flex justify-self-stretch ml-2">
                 <Link
                   href="/about"
                   className="font-mulish-semiBold xs:w-[67px] xs:h-[18px] outline bg-white text-center py-1 font-semibold xs:text-[7px] sm:text-[9px] text-lightGray "
