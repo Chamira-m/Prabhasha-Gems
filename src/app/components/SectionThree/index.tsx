@@ -79,7 +79,7 @@ function SectionThree() {
             <div className="mt-8 flex justify-center">
               <Link
                 href="/about"
-                className="md:w-[130px] md:h-[24px] lg:w-[180px] lg:h-[30px] xl:w-[230px] xl:h-[36px] md:text-[10px] lg:text-[12px] xl:text-[15px] outline bg-white text-center p-1 font-semibold  text-lightGray "
+                className="md:w-[130px] md:h-[24px] lg:w-[180px] lg:h-[30px] xl:w-[230px] xl:h-[36px] md:text-[9px] lg:text-[12px] xl:text-[15px] outline bg-white text-center p-1 font-semibold  text-lightGray "
               >
                 FIND MORE FINE JEWELRY
               </Link>

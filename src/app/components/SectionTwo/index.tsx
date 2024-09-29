@@ -94,7 +94,7 @@ function SectionTwo() {
         <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
-            className="font-mulish-semiBold md:w-[140px] md:h-[28px] lg:w-[180px] lg:h-[36px] xl:w-[210px] xl:h-[36px] md:text-[10px] lg:text-[12px] xl:text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
+            className="font-mulish-semiBold md:w-[140px] md:h-[28px] lg:w-[180px] lg:h-[36px] xl:w-[210px] xl:h-[36px] md:text-[9px] lg:text-[12px] xl:text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
           >
             FIND MORE SAPPHIRES
           </Link>
