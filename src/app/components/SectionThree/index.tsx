@@ -43,8 +43,8 @@ function SectionThree() {
             className="md:w-full md:h-[400px] lg:w-full lg:h-[600px] xl:w-full xl:h-[770px] px-3"
             src={Section3}
             alt="ImageOne"
-            width={100}
-            height={100}
+            width={500}
+            height={300}
             layout="fixed"
             objectFit="cover"
             loading="lazy"
@@ -94,8 +94,8 @@ function SectionThree() {
               className=" w-full h-[147px]"
               src={Section3}
               alt="ImageOne"
-              width={100}
-              height={100}
+              width={500}
+              height={300}
               layout="fixed"
               objectFit="cover"
               loading="lazy"

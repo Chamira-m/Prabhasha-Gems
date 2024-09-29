@@ -82,8 +82,8 @@ const SectionOne = () => {
               className=" w-full md:h-[125px] lg:h-[175px] xl:h-[281px] mt-10"
               src={ImageOne}
               alt="ImageOne"
-              width={100}
-              height={100}
+              width={500}
+              height={300}
               layout="fixed"
               objectFit="cover"
               loading="lazy"
@@ -92,8 +92,8 @@ const SectionOne = () => {
               className=" w-full md:h-[125px] lg:h-[175px] xl:h-[281px] mt-3"
               src={ImageTwo}
               alt="ImageTwo"
-              width={100}
-              height={100}
+              width={500}
+              height={300}
               layout="fixed"
               objectFit="cover"
               loading="lazy"
@@ -139,8 +139,8 @@ const SectionOne = () => {
           className="w-full h-[127px] mt-5"
           src={ImageOne}
           alt="ImageOne"
-          width={100}
-          height={100}
+          width={500}
+          height={300}
           layout="fixed"
           objectFit="cover"
           loading="lazy"
