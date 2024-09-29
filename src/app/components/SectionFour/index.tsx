@@ -7,7 +7,7 @@ function SectionFour() {
   return (
     <>
       <div className="md:block hidden mt-3 mb-2">
-        <div className="grid grid-cols-2 bg-lightMint">
+        <div className="grid grid-cols-2 ">
           <Image
             className=" w-full md:h-[280px] lg:h-[450px] xl:h-[490px]"
             src={ImageOne}
@@ -53,7 +53,7 @@ function SectionFour() {
         <h2 className="xs:text-[17px] sm:text-[19px] text-darkMint text-center font-mulish-extraBold">
           Timeless Gifts
         </h2>
-        <div className="bg-lightMint">
+        <div className="">
           <div className="grid grid-cols-2">
             <Image
               className=" w-full xs:h-[140px] sm:h-[160px]"
