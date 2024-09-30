@@ -68,10 +68,16 @@ function SectionTwo() {
   return (
     <>
       <div className="md:block hidden mt-5">
-        <h1 className="md:text-[28px] lg:text-[36px] xl:text-[40px] text-blueGray text-center font-mulish-semiBold">
-          The Art of <span className="text-darkMint">Gemstones,</span> The
-          Majesty of
-          <span className="text-darkMint"> Sapphires.</span>{" "}
+        <h1 className="uppercase md:text-[28px] lg:text-[36px] xl:text-[40px] text-blueGray text-center font-mulish-semiBold">
+          The Art of{" "}
+          <span className="text-darkMint font-mulish-extraBold">
+            Gemstones,
+          </span>{" "}
+          The Majesty of
+          <span className="text-darkMint font-mulish-extraBold">
+            {" "}
+            Sapphires.
+          </span>{" "}
         </h1>
         <p className="md:text[12px] lg:text-[16px] xl:text-base text-blueGray text-center mt-2 mb-4 font-mulish-lightItalic">
           Discover the true artistry of gemstones and the unmatched majesty of
@@ -101,13 +107,13 @@ function SectionTwo() {
         </div>
       </div>
       <div className="block md:hidden mt-2">
-        <h1 className="text-[17px] text-blueGray text-left font-mulish-semiBold">
+        <h1 className="uppercase text-[17px] text-blueGray text-left font-mulish-semiBold">
           The Art of{" "}
           <span className="text-darkMint font-mulish-extraBold">
             Gemstones,
           </span>{" "}
         </h1>
-        <h1 className="text-[17px] text-blueGray text-left font-mulish-semiBold">
+        <h1 className="uppercase text-[17px] text-blueGray text-left font-mulish-semiBold">
           The Majesty of
           <span className="text-darkMint font-mulish-extraBold">
             {" "}

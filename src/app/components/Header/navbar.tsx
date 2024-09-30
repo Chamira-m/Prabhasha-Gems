@@ -2,13 +2,14 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
   const [openSub2menu, setOpenSub2menu] = useState<string | null>(null);
   const router = useRouter();
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -17,7 +18,7 @@ export const Navbar = () => {
   const handleSubmenuToggle = (menuTitle: string, path: string) => {
     if (menuData.find((menu) => menu.title === menuTitle)?.submenu) {
       setOpenSubmenu(openSubmenu === menuTitle ? null : menuTitle);
-      setOpenSub2menu(null);
+      setOpenSub2menu(null); // Close sub2menu when toggling submenu
     } else {
       router.push(path);
       closeMenu();
@@ -34,14 +35,18 @@ export const Navbar = () => {
     setOpenSub2menu(null);
   };
 
+  useEffect(() => {
+    closeMenu();
+  }, [pathname]);
+
   const menuData = [
     {
       title: "SAPPHIRES",
-      path: "/",
+      path: "",
       submenu: [
         {
           title: "LOOSE STONES",
-          path: "/",
+          path: "",
           sub2menu: [
             { title: "BLUE SAPPHIRE", path: "/about" },
             { title: "RUBY", path: "/pairs" },
@@ -57,30 +62,37 @@ export const Navbar = () => {
         { title: "REQUEST GEMS", path: "/request-gems" },
       ],
     },
-    { title: "JEWELLERY", path: "/jewellery" },
-    { title: "FINE JEWELLERY", path: "/fine-jewellery" },
+    {
+      title: "JEWELLERY",
+      path: "",
+      submenu: [
+        { title: "Rings", path: "/rings" },
+        { title: "Bracelets and Bangles ", path: "/braceletsbangles " },
+        { title: "Necklaces ", path: "/necklaces " },
+        { title: "Pendants ", path: "/pendants " },
+        { title: "Earrings ", path: "/earrings " },
+        { title: "Mens Jewellery", path: "/mensjewellery" },
+      ],
+    },
+    {
+      title: "FINE JEWELLERY",
+      path: "",
+      submenu: [
+        { title: "Gold Jewellery ", path: "/goldjewellery " },
+        { title: "Rose Gold Jeweller ", path: "/rosegoldjewellery " },
+        { title: "White Gold Jewellery ", path: "/whitegoldjewellery " },
+        { title: "Diamond Jewellery  ", path: "/diamondjewellery  " },
+        {
+          title: "Colored Gemstone Jewellery  ",
+          path: "/coloredgemstonejewellery  ",
+        },
+        { title: "Wedding Jewellery ", path: "/weddingjewellery  " },
+      ],
+    },
     { title: "COLLECTION", path: "/collection" },
     {
       title: "GIFT",
-      path: "/",
-      submenu: [
-        {
-          title: "LOOSE STONES",
-          path: "/",
-          sub2menu: [
-            { title: "BLUE SAPPHIRE", path: "/loose-stones" },
-            { title: "RUBY", path: "/pairs" },
-            { title: "EMERALDS", path: "/layouts" },
-            { title: "PINK SAPPHIRES", path: "/calibrated-sapphires" },
-            { title: "YELLOW SAPPHIRES", path: "/request-gems" },
-            { title: "SPINEL", path: "/request-gems" },
-          ],
-        },
-        { title: "PAIRS", path: "/pairs" },
-        { title: "LAYOUTS", path: "/layouts" },
-        { title: "CALIBRATED SAPPHIRES", path: "/calibrated-sapphires" },
-        { title: "REQUEST GEMS", path: "/request-gems" },
-      ],
+      path: "/gift",
     },
     { title: "ABOUT US", path: "/about" },
     { title: "CONTACT US", path: "/contact" },
@@ -134,27 +146,30 @@ export const Navbar = () => {
             <div key={menu.title} className="relative group">
               <Link
                 href={menu.path}
-                className="hover:text-gray-700 text-darkMint font-mulish-extraBold text-[18px]"
+                className="hover:text-gray-700 text-darkMint font-mulish-extraBold text-[18px] uppercase"
               >
                 {menu.title}
               </Link>
               {menu.submenu && (
-                <div className="absolute left-0 hidden group-hover:block bg-white shadow-lg p-4 w-80">
+                <div className="absolute left-0 hidden group-hover:block bg-white shadow-lg p-4 w-60">
                   {menu.submenu.map((submenu) => (
-                    <div key={submenu.title} className="group relative">
+                    <div
+                      key={submenu.title}
+                      className="group/sub relative mb-2"
+                    >
                       <Link
                         href={submenu.path}
-                        className="block hover:text-gray-700 text-darkBlue font-mulish-medium"
+                        className="block hover:text-gray-700 text-darkBlue font-mulish-medium uppercase"
                       >
                         {submenu.title}
                       </Link>
                       {submenu.sub2menu && (
-                        <div className="hidden group-hover:block bg-white shadow-lg p-4 mt-2">
+                        <div className="hidden group-hover/sub:block mt-2 pl-4">
                           {submenu.sub2menu.map((sub2menu) => (
                             <Link
                               key={sub2menu.title}
                               href={sub2menu.path}
-                              className="block hover:text-gray-700 ml-4 text-blueGray font-mulish-medium"
+                              className="block hover:text-gray-700 text-blueGray font-mulish-medium uppercase text-sm py-1"
                             >
                               {sub2menu.title}
                             </Link>
@@ -186,7 +201,7 @@ export const Navbar = () => {
                       className="flex items-center justify-between w-full text-left"
                       onClick={() => handleSubmenuToggle(menu.title, menu.path)}
                     >
-                      <span className="text-darkMint font-mulish-extraBold">
+                      <span className="text-darkMint font-mulish-extraBold uppercase">
                         {menu.title}
                       </span>
                       {menu.submenu && (
@@ -211,14 +226,19 @@ export const Navbar = () => {
                     {menu.submenu && openSubmenu === menu.title && (
                       <div className="ml-4 mt-2">
                         {menu.submenu.map((submenu) => (
-                          <div key={submenu.title} className="mb-2 ">
+                          <div key={submenu.title} className="mb-2">
                             <button
                               className="flex items-center justify-between w-full text-left"
                               onClick={() =>
-                                handleSub2menuToggle(submenu.title)
+                                submenu.sub2menu
+                                  ? handleSub2menuToggle(submenu.title)
+                                  : handleSubmenuToggle(
+                                      submenu.title,
+                                      submenu.path
+                                    )
                               }
                             >
-                              <span className="text-darkBlue font-mulish-medium">
+                              <span className="text-darkBlue font-mulish-medium uppercase">
                                 {submenu.title}
                               </span>
                               {submenu.sub2menu && (
@@ -249,8 +269,7 @@ export const Navbar = () => {
                                     <Link
                                       key={sub2menu.title}
                                       href={sub2menu.path}
-                                      className="block hover:text-gray-700 mb-2 text-blueGray font-mulish-medium"
-                                      onClick={closeMenu}
+                                      className="block text-sm text-blueGray mt-1 uppercase"
                                     >
                                       {sub2menu.title}
                                     </Link>

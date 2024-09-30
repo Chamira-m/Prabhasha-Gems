@@ -50,13 +50,13 @@ function SectionThree() {
             loading="lazy"
           />
           <div className="text-center">
-            <h2 className="md:text-[18px] lg:text-[30px] xl:text-[40px] text-darkBlue font-mulish-semiBold">
+            <h2 className="uppercase md:text-[18px] lg:text-[30px] xl:text-[40px] text-darkBlue font-mulish-semiBold">
               <span className="text-darkMint md:text-[18px] lg:text-[30px] xl:text-[40px] font-mulish-extraBold">
                 Fine Jewelry
               </span>
               <span> for Life’s</span>
             </h2>
-            <h2 className="md:text-[18px] lg:text-[30px] xl:text-[40px] text-darkBlue font-mulish-semiBold gap-4">
+            <h2 className="uppercase md:text-[18px] lg:text-[30px] xl:text-[40px] text-darkBlue font-mulish-semiBold gap-4">
               Finest Moments
             </h2>
             <div className=" flex justify-between flex-wrap ml-10 lg:mt-3 xl:mt-4">
@@ -102,13 +102,13 @@ function SectionThree() {
             />
           </div>
           <div className="col-span-2 text-left ml-2">
-            <h2 className="text-[17px] text-darkBlue font-mulish-semiBold">
+            <h2 className="uppercase text-[17px] text-darkBlue font-mulish-semiBold">
               <span className="text-darkMint text-[17px] font-mulish-extraBold ">
                 Fine Jewelry
               </span>
               <span> for Life’s</span>
             </h2>
-            <h2 className="text-[17px] text-darkBlue font-mulish-semiBold gap-4">
+            <h2 className="uppercase text-[17px] text-darkBlue font-mulish-semiBold gap-4">
               Finest Moments
             </h2>
             <p className="text-[8px] text-blueGray mt-3 text-justify font-mulish-lightItalic">

@@ -7,12 +7,42 @@ import Profile from "../../../public/images/home/profile.png";
 import Search from "../../../public/images/home/search.png";
 import { Navbar } from "./navbar";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 const Header = () => {
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const controlNavbar = () => {
+    if (typeof window !== "undefined") {
+      if (window.scrollY > lastScrollY) {
+        // If we scroll down, hide the navbar
+        setIsVisible(false);
+      } else {
+        // If we scroll up, show the navbar
+        setIsVisible(true);
+      }
+      setLastScrollY(window.scrollY);
+    }
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", controlNavbar);
+
+      // Cleanup function
+      return () => {
+        window.removeEventListener("scroll", controlNavbar);
+      };
+    }
+  }, [lastScrollY]);
   return (
     <>
       {/* Fixed Header */}
-      <div className="fixed top-0 left-0 w-full bg-white z-50 shadow-md">
+      <div
+        className={`fixed top-0 left-0 w-full bg-white z-50 shadow-md transition-transform duration-300 ${
+          isVisible ? "translate-y-0" : "-translate-y-full"
+        }`}
+      >
         <div className="grid grid-cols-3 gap-3 items-center py-4 px-6">
           {/* Mobile Menu */}
           <div>

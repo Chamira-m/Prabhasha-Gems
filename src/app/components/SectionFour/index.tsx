@@ -19,10 +19,10 @@ function SectionFour() {
             loading="lazy"
           />
           <div className="text-center md:mt-7 lg:mt-9 xl:mt-14">
-            <h2 className="md:text-[20px] lg:text-[32px] xl:text-[40px] font-bold text-blueGray text-right font-mulish-semiBold">
+            <h2 className="uppercase md:text-[20px] lg:text-[32px] xl:text-[40px] font-bold text-blueGray text-right font-mulish-semiBold">
               Elevate Every Occasion with
             </h2>
-            <h2 className="md:text-[20px] lg:text-[32px] text-[40px] text-darkMint text-right font-mulish-extraBold">
+            <h2 className="uppercase md:text-[20px] lg:text-[32px] text-[40px] text-darkMint text-right font-mulish-extraBold">
               Timeless Gifts
             </h2>
             <p className="md:text-[10px] lg:text-[16px] xl:text-base text-blueGray text-justify mt-2 font-mulish-lightItalic ml-4">
@@ -47,10 +47,10 @@ function SectionFour() {
         </div>
       </div>
       <div className="block md:hidden mt-5 mb-2 ">
-        <h2 className=" xs:text-[17px] sm:text-[19px] font-bold text-blueGray text-center font-mulish-semiBold">
+        <h2 className="uppercase xs:text-[17px] sm:text-[19px] font-bold text-blueGray text-center font-mulish-semiBold">
           Elevate Every Occasion with
         </h2>
-        <h2 className="xs:text-[17px] sm:text-[19px] text-darkMint text-center font-mulish-extraBold">
+        <h2 className="uppercase xs:text-[17px] sm:text-[19px] text-darkMint text-center font-mulish-extraBold">
           Timeless Gifts
         </h2>
         <div className="">
