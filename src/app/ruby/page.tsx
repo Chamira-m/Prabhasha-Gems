@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Maintain from "../../public/images/maintain.png";
-const about = () => {
+const ruby = () => {
   return (
     <div className="flex flex-row justify-center xs:mt-28 xl:mt-60">
       {" "}
@@ -19,4 +19,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default ruby;

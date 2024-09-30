@@ -49,7 +49,7 @@ export const Navbar = () => {
           path: "",
           sub2menu: [
             { title: "BLUE SAPPHIRE", path: "/about" },
-            { title: "RUBY", path: "/pairs" },
+            { title: "RUBY", path: "/ruby" },
             { title: "EMERALDS", path: "/layouts" },
             { title: "PINK SAPPHIRES", path: "/calibrated-sapphires" },
             { title: "YELLOW SAPPHIRES", path: "/request-gems" },
