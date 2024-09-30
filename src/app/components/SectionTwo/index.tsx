@@ -100,7 +100,7 @@ function SectionTwo() {
         <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
-            className="font-mulish-semiBold md:w-[150px] md:h-[24px] lg:w-[180px] lg:h-[36px] xl:w-[210px] xl:h-[36px] md:text-[9px] lg:text-[12px] xl:text-[15px] outline bg-white md:p-1 lg:p-2 text-center font-semibold text-lightGray "
+            className="uppercase font-mulish-semiBold md:w-[150px] md:h-[24px] lg:w-[180px] lg:h-[36px] xl:w-[210px] xl:h-[36px] md:text-[9px] lg:text-[12px] xl:text-[15px] outline bg-white md:p-1 lg:p-2 text-center font-semibold text-lightGray "
           >
             FIND MORE SAPPHIRES
           </Link>
@@ -144,7 +144,7 @@ function SectionTwo() {
         <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
-            className="font-mulish-semiBold w-[110px] h-[20px] outline bg-white text-center py-1 font-semibold text-[7px] text-lightGray "
+            className="uppercase font-mulish-semiBold w-[110px] h-[20px] outline bg-white text-center py-1 font-semibold text-[7px] text-lightGray "
           >
             FIND MORE SAPPHIRES
           </Link>

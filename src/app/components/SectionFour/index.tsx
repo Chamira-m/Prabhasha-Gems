@@ -38,7 +38,7 @@ function SectionFour() {
             <div className="md:mt-2  lg:mt-5 xl:mt-8 flex justify-center">
               <Link
                 href="/about"
-                className="font-mulish-semiBold md:w-[100px] md:h-[24px] lg:w-[110px] lg:h-[28px] xl:w-[143px] xl:h-[32px] outline bg-white text-center py-1 font-semibold md:text-[9px] lg:text-[11px] xl:text-[15px] text-lightGray "
+                className="uppercase font-mulish-semiBold md:w-[100px] md:h-[24px] lg:w-[110px] lg:h-[28px] xl:w-[143px] xl:h-[32px] outline bg-white text-center py-1 font-semibold md:text-[9px] lg:text-[11px] xl:text-[15px] text-lightGray "
               >
                 EXPLORE GIFTS
               </Link>
@@ -79,7 +79,7 @@ function SectionFour() {
               <div className="mt-2 flex justify-self-stretch ml-2">
                 <Link
                   href="/about"
-                  className="font-mulish-semiBold xs:w-[67px] xs:h-[18px] outline bg-white text-center py-1 font-semibold xs:text-[7px] sm:text-[9px] text-lightGray "
+                  className="uppercase font-mulish-semiBold xs:w-[70px] xs:h-[18px] outline bg-white text-center py-1 font-semibold xs:text-[7px] sm:text-[9px] text-lightGray "
                 >
                   EXPLORE GIFTS
                 </Link>

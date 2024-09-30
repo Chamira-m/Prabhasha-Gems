@@ -79,7 +79,7 @@ function SectionThree() {
             <div className="mt-8 flex justify-center">
               <Link
                 href="/about"
-                className="md:w-[140px] md:h-[24px] lg:w-[180px] lg:h-[30px] xl:w-[230px] xl:h-[36px] md:text-[9px] lg:text-[12px] xl:text-[15px] outline bg-white text-center md:p-1 lg:p-2 font-semibold  text-lightGray "
+                className="uppercase md:w-[140px] md:h-[24px] lg:w-[180px] lg:h-[30px] xl:w-[230px] xl:h-[36px] md:text-[9px] lg:text-[12px] xl:text-[15px] outline bg-white text-center md:p-1 lg:p-2 font-semibold  text-lightGray "
               >
                 FIND MORE FINE JEWELRY
               </Link>
@@ -133,7 +133,7 @@ function SectionThree() {
         <div className="mt-8 flex justify-center mb-2">
           <Link
             href="/about"
-            className="w-[120px] h-[18px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
+            className="uppercase w-[120px] h-[18px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
           >
             FIND MORE FINE JEWELRY
           </Link>

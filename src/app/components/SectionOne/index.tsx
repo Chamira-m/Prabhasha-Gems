@@ -53,7 +53,7 @@ const SectionOne = () => {
             <div className="mt-8 flex justify-center">
               <Link
                 href="/about"
-                className="md:w-[100px] md:h-[28px] lg:w-[150px] lg:h-[34px] xl:w-[140px] xl:h-[40px] md:text-[10px] lg:text-[12px] xl:text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
+                className="uppercase md:w-[100px] md:h-[28px] lg:w-[150px] lg:h-[34px] xl:w-[140px] xl:h-[40px] md:text-[10px] lg:text-[12px] xl:text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
               >
                 Explore More
               </Link>
@@ -130,7 +130,7 @@ const SectionOne = () => {
         <div className="mt-8 flex justify-center">
           <Link
             href="/about"
-            className="w-[67px] h-[20px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
+            className="uppercase w-[67px] h-[20px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
           >
             Explore More
           </Link>

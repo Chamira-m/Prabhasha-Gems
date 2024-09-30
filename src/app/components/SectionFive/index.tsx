@@ -38,7 +38,7 @@ const SectionFive = () => {
         <div className="mt-8 flex justify-center">
           <Link
             href="/about"
-            className="md:w-[100px] md:h-[28px] lg:w-[150px] lg:h-[34px] xl:w-[140px] xl:h-[40px] md:text-[10px] lg:text-[12px] xl:text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
+            className="uppercase md:w-[100px] md:h-[28px] lg:w-[150px] lg:h-[34px] xl:w-[140px] xl:h-[40px] md:text-[10px] lg:text-[12px] xl:text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
           >
             About Us
           </Link>
@@ -122,7 +122,7 @@ const SectionFive = () => {
             loading="lazy"
           />
         </div>
-        <p className="xs:px-6 xs:text-[8px] sm:text-[10px] text-blueGray text-justify mt-2 mb-4 font-mulish-lightItalic">
+        <p className=" xs:text-[8px] sm:text-[10px] text-blueGray text-justify mt-2 mb-4 font-mulish-lightItalic">
           For generations, our brand has been synonymous with unparalleled
           craftsmanship and timeless elegance. What began as a small family
           business has blossomed into a trusted name in the world of gems and
@@ -141,7 +141,7 @@ const SectionFive = () => {
         <div className="mt-3 flex justify-center">
           <Link
             href="/about"
-            className="w-[67px] h-[20px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
+            className="uppercase w-[67px] h-[20px] outline bg-white text-center p-1 font-semibold xs:text-[7px] sm:text-[9px] text-lightGray "
           >
             About Us
           </Link>
