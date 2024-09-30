@@ -72,7 +72,7 @@ function SectionTwo() {
           The Art of{" "}
           <span className="text-darkMint font-mulish-extraBold">
             Gemstones,
-          </span>{" "}
+          </span>
           The Majesty of
           <span className="text-darkMint font-mulish-extraBold">
             {" "}
@@ -107,20 +107,20 @@ function SectionTwo() {
         </div>
       </div>
       <div className="block md:hidden mt-2">
-        <h1 className="uppercase text-[17px] text-blueGray text-left font-mulish-semiBold">
+        <h1 className="uppercase xs:text-[17px] sm:text-[19px] text-blueGray text-left font-mulish-semiBold">
           The Art of{" "}
           <span className="text-darkMint font-mulish-extraBold">
             Gemstones,
           </span>{" "}
         </h1>
-        <h1 className="uppercase text-[17px] text-blueGray text-left font-mulish-semiBold">
+        <h1 className="uppercase xs:text-[17px] sm:text-[19px] text-blueGray text-left font-mulish-semiBold">
           The Majesty of
           <span className="text-darkMint font-mulish-extraBold">
             {" "}
             Sapphires.
           </span>
         </h1>
-        <p className="text-[8px] text-blueGray text-justify mt-2 mb-4 font-mulish-lightItalic">
+        <p className="xs:text-[8px] sm:text-[10px] text-blueGray text-justify mt-2 mb-4 font-mulish-lightItalic">
           Discover the true artistry of gemstones and the unmatched majesty of
           Ceylons finest sapphires. Each piece in our collection is a
           celebration of nature’s brilliance, expertly crafted to reveal the

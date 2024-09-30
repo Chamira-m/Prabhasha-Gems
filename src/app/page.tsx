@@ -4,6 +4,7 @@ import SectionOne from "./components/SectionOne";
 import Video from "./components/Video";
 import SectionThree from "./components/SectionThree";
 import SectionFour from "./components/SectionFour";
+import SectionFive from "./components/SectionFive";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
+      <SectionFive />
     </div>
   );
 }

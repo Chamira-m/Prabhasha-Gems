@@ -9,7 +9,7 @@ function SectionFour() {
       <div className="md:block hidden mt-3 mb-2">
         <div className="grid grid-cols-2 ">
           <Image
-            className=" w-full md:h-[280px] lg:h-[450px] xl:h-[490px]"
+            className=" w-full md:h-[280px] lg:h-[400px] xl:h-[490px]"
             src={ImageOne}
             alt="ImageOne"
             width={500}
@@ -19,13 +19,13 @@ function SectionFour() {
             loading="lazy"
           />
           <div className="text-center md:mt-7 lg:mt-9 xl:mt-14">
-            <h2 className="uppercase md:text-[20px] lg:text-[32px] xl:text-[40px] font-bold text-blueGray text-right font-mulish-semiBold">
+            <h2 className="uppercase md:text-[20px] lg:text-[24px] xl:text-[40px] font-bold text-blueGray text-right font-mulish-semiBold">
               Elevate Every Occasion with
             </h2>
-            <h2 className="uppercase md:text-[20px] lg:text-[32px] text-[40px] text-darkMint text-right font-mulish-extraBold">
+            <h2 className="uppercase md:text-[20px] lg:text-[24px] xl:text-[40px] text-darkMint text-right font-mulish-extraBold">
               Timeless Gifts
             </h2>
-            <p className="md:text-[10px] lg:text-[16px] xl:text-base text-blueGray text-justify mt-2 font-mulish-lightItalic ml-4">
+            <p className="md:text-[10px] lg:text-[14px] xl:text-base text-blueGray text-justify mt-2 font-mulish-lightItalic ml-4">
               Make every celebration unforgettable with our collection of
               timeless gifts. Thoughtfully curated and beautifully crafted, each
               piece is designed to elevate any occasion, turning special moments
