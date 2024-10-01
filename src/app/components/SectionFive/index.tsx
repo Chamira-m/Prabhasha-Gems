@@ -45,7 +45,7 @@ const SectionFive = () => {
         </div>
         <div className="flex flex-row gap-4 mt-5 justify-center">
           <Image
-            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[433px] xl:h-[433px]"
+            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[433px] xl:h-[433px] rounded-[20px]"
             src={ImageOne}
             alt="ImageOne"
             width={500}
@@ -55,7 +55,7 @@ const SectionFive = () => {
             loading="lazy"
           />
           <Image
-            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[433px] xl:h-[433px]"
+            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[433px] xl:h-[433px] rounded-[20px]"
             src={ImageTwo}
             alt="ImageOne"
             width={500}
@@ -65,7 +65,7 @@ const SectionFive = () => {
             loading="lazy"
           />
           <Image
-            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[433px] xl:h-[433px]"
+            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[433px] xl:h-[433px] rounded-[20px]"
             src={ImageThree}
             alt="ImageOne"
             width={500}
@@ -92,7 +92,7 @@ const SectionFive = () => {
         </h1>
         <div className="flex flex-row gap-2 mt-4 justify-center">
           <Image
-            className="xs:w-[121px] xs:h-[121px]"
+            className="xs:w-[121px] xs:h-[121px] rounded-[10px]"
             src={ImageOne}
             alt="ImageOne"
             width={500}
@@ -102,7 +102,7 @@ const SectionFive = () => {
             loading="lazy"
           />
           <Image
-            className="xs:w-[121px] xs:h-[121px]"
+            className="xs:w-[121px] xs:h-[121px] rounded-[10px]"
             src={ImageTwo}
             alt="ImageOne"
             width={500}
@@ -112,7 +112,7 @@ const SectionFive = () => {
             loading="lazy"
           />
           <Image
-            className="xs:w-[121px] xs:h-[121px]"
+            className="xs:w-[121px] xs:h-[121px] rounded-[10px]"
             src={ImageThree}
             alt="ImageOne"
             width={500}
