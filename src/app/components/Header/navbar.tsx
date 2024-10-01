@@ -1,6 +1,5 @@
 "use client";
-
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 
@@ -8,6 +7,8 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
   const [openSub2menu, setOpenSub2menu] = useState<string | null>(null);
+  const [isVisible, setIsVisible] = useState(true);
+  const lastScrollY = useRef(0);
   const router = useRouter();
   const pathname = usePathname();
 
@@ -39,6 +40,22 @@ export const Navbar = () => {
     closeMenu();
   }, [pathname]);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY.current) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const menuData = [
     {
       title: "SAPPHIRES",
@@ -48,18 +65,18 @@ export const Navbar = () => {
           title: "LOOSE STONES",
           path: "",
           sub2menu: [
-            { title: "BLUE SAPPHIRE", path: "/about" },
+            { title: "BLUE SAPPHIRE", path: "/blueSapphire" },
             { title: "RUBY", path: "/ruby" },
-            { title: "EMERALDS", path: "/layouts" },
-            { title: "PINK SAPPHIRES", path: "/calibrated-sapphires" },
-            { title: "YELLOW SAPPHIRES", path: "/request-gems" },
-            { title: "SPINEL", path: "/request-gems" },
+            { title: "EMERALDS", path: "/emeralds" },
+            { title: "PINK SAPPHIRES", path: "/pinkSapphires" },
+            { title: "YELLOW SAPPHIRES", path: "/yelloSapphire" },
+            { title: "SPINEL", path: "/spinel" },
           ],
         },
         { title: "PAIRS", path: "/pairs" },
         { title: "LAYOUTS", path: "/layouts" },
-        { title: "CALIBRATED SAPPHIRES", path: "/calibrated-sapphires" },
-        { title: "REQUEST GEMS", path: "/request-gems" },
+        { title: "CALIBRATED SAPPHIRES", path: "/calibratedSapphires" },
+        { title: "REQUEST GEMS", path: "/requestGems" },
       ],
     },
     {
@@ -67,26 +84,26 @@ export const Navbar = () => {
       path: "",
       submenu: [
         { title: "Rings", path: "/rings" },
-        { title: "Bracelets and Bangles ", path: "/braceletsbangles " },
+        { title: "Bracelets and Bangles ", path: "/braceletsBangles " },
         { title: "Necklaces ", path: "/necklaces " },
         { title: "Pendants ", path: "/pendants " },
         { title: "Earrings ", path: "/earrings " },
-        { title: "Mens Jewellery", path: "/mensjewellery" },
+        { title: "Mens Jewellery", path: "/mensJewellery" },
       ],
     },
     {
       title: "FINE JEWELLERY",
       path: "",
       submenu: [
-        { title: "Gold Jewellery ", path: "/goldjewellery " },
-        { title: "Rose Gold Jeweller ", path: "/rosegoldjewellery " },
-        { title: "White Gold Jewellery ", path: "/whitegoldjewellery " },
-        { title: "Diamond Jewellery  ", path: "/diamondjewellery  " },
+        { title: "Gold Jewellery ", path: "/goldJewellery " },
+        { title: "Rose Gold Jeweller ", path: "/roseGoldJewellery " },
+        { title: "White Gold Jewellery ", path: "/whiteGoldJewellery " },
+        { title: "Diamond Jewellery  ", path: "/diamondJewellery  " },
         {
           title: "Colored Gemstone Jewellery  ",
-          path: "/coloredgemstonejewellery  ",
+          path: "/coloredGemstoneJewellery  ",
         },
-        { title: "Wedding Jewellery ", path: "/weddingjewellery  " },
+        { title: "Wedding Jewellery ", path: "/weddingJewellery  " },
       ],
     },
     { title: "COLLECTION", path: "/collection" },
@@ -117,7 +134,11 @@ export const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <header>
+    <header
+      className={`sticky top-0 z-50 bg-white transition-transform duration-300 ${
+        isVisible ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Mobile Menu Button */}
         <button
@@ -164,7 +185,7 @@ export const Navbar = () => {
                         {submenu.title}
                       </Link>
                       {submenu.sub2menu && (
-                        <div className="hidden group-hover/sub:block mt-2 pl-4">
+                        <div className="absolute left-full top-0 hidden group-hover/sub:block bg-white shadow-lg p-4 w-60 -mt-4">
                           {submenu.sub2menu.map((sub2menu) => (
                             <Link
                               key={sub2menu.title}

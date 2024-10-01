@@ -8,7 +8,7 @@ import ImageThree from "../../../public/images/home/sectionFive/section53.png";
 const SectionFive = () => {
   return (
     <>
-      <div className="md:block hidden mt-5 mb-2">
+      <div className="md:block hidden mt-5 mb-5">
         <h1 className="uppercase md:text-[28px] lg:text-[36px] xl:text-[40px] text-blueGray text-center font-mulish-semiBold">
           A Legacy of{" "}
           <span className="text-darkMint font-mulish-extraBold">
