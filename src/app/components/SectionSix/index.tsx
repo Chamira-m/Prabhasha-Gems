@@ -3,12 +3,8 @@
 import React, { useState, useEffect } from "react";
 import Testimonial from "./testimonial";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import "swiper/css";
-import "swiper/css/autoplay";
-import "swiper/css/pagination";
-
+import "slick-carousel/slick/slick-theme.css";
 import imageOne from "../../../public/images/home/sectionSix/section61.png";
 import imageTwo from "../../../public/images/home/sectionSix/section62.png";
 import imageThree from "../../../public/images/home/sectionSix/section63.png";
