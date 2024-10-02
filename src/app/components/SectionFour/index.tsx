@@ -46,7 +46,7 @@ function SectionFour() {
           </div>
         </div>
       </div>
-      <div className="block md:hidden mt-5 mb-2 ">
+      <div className="block md:hidden mt-5 mb-2">
         <h2 className="uppercase xs:text-[17px] sm:text-[19px] font-bold text-blueGray text-center font-mulish-semiBold">
           Elevate Every Occasion with
         </h2>

@@ -11,7 +11,7 @@ const Testimonial = ({
   return (
     <div className="flex flex-col justify-center items-center pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-28">
       <div
-        className="relative bg-white p-4 sm:p-5 md:p-6 lg:p-7 xl:p-8  
+        className="relative bg-[#FFFF] p-4 sm:p-5 md:p-6 lg:p-7 xl:p-8  
                       w-[257px] h-[202px] 
                       sm:w-[257px] sm:h-[202px] 
                       md:w-[340px] md:h-[300px] 
