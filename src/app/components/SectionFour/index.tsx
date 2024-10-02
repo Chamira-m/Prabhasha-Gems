@@ -53,8 +53,8 @@ function SectionFour() {
         <h2 className="uppercase xs:text-[17px] sm:text-[19px] text-darkMint text-center font-mulish-extraBold">
           Timeless Gifts
         </h2>
-        <div className="">
-          <div className="grid grid-cols-2">
+        <div className=" w-screen bg-lightMint mt-3 py-3">
+          <div className="grid grid-cols-2 px-5">
             <Image
               className=" w-full xs:h-[140px] sm:h-[160px]"
               src={ImageOne}
@@ -79,7 +79,7 @@ function SectionFour() {
               <div className="mt-2 flex justify-self-stretch ml-2">
                 <Link
                   href="/about"
-                  className="uppercase font-mulish-semiBold xs:w-[70px] xs:h-[18px] outline bg-white text-center py-1 font-semibold xs:text-[7px] sm:text-[9px] text-lightGray "
+                  className="uppercase font-mulish-semiBold xs:w-[70px] xs:h-[18px] outline bg-lightMint text-center py-1 font-semibold xs:text-[7px] sm:text-[9px] text-blueGray "
                 >
                   EXPLORE GIFTS
                 </Link>
