@@ -130,7 +130,7 @@ const SectionOne = () => {
         <div className="mt-8 flex justify-center">
           <Link
             href="/about"
-            className="uppercase w-[67px] h-[20px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
+            className="uppercase w-[70px] h-[20px] outline bg-white text-center p-1 font-semibold text-[7px] text-lightGray "
           >
             Explore More
           </Link>

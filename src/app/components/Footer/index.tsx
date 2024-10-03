@@ -116,31 +116,9 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-center">
             <h1 className="uppercase text-[8px] font-mulish-bold text-[#ffffff] mb-1">
-              Our Company
-            </h1>
-            <div className="flex flex-col items-center">
-              <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
-                About Us
-              </h1>
-              <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
-                Contact Us
-              </h1>
-              <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
-                Location
-              </h1>
-              <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
-                Privacy policy
-              </h1>
-              <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
-                Frequently asked questions
-              </h1>
-            </div>
-          </div>
-          <div className="flex flex-col items-end">
-            <h1 className="uppercase text-[8px] font-mulish-bold text-[#ffffff] mb-1">
               Client Care
             </h1>
-            <div className="flex flex-col items-end">
+            <div className="flex flex-col items-center">
               <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
                 Track your order
               </h1>
@@ -155,6 +133,28 @@ const Footer = () => {
               </h1>
               <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
                 Book an appointment
+              </h1>
+            </div>
+          </div>
+          <div className="flex flex-col items-end">
+            <h1 className="uppercase text-[8px] font-mulish-bold text-[#ffffff] mb-1">
+              Our Company
+            </h1>
+            <div className="flex flex-col items-end">
+              <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
+                About Us
+              </h1>
+              <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
+                Contact Us
+              </h1>
+              <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
+                Location
+              </h1>
+              <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
+                Privacy policy
+              </h1>
+              <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
+                Frequently asked questions
               </h1>
             </div>
           </div>
