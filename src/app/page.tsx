@@ -7,7 +7,7 @@ import SectionThree from "./components/SectionThree";
 import SectionFive from "./components/SectionFive";
 import SectionSix from "./components/SectionSix";
 import SectionSeven from "./components/SectionSeven";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <SectionFive />
       <SectionSix />
       <SectionSeven />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
