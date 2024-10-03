@@ -132,7 +132,7 @@ const SectionSix = () => {
       </div>
       {isMounted && (
         <div className="flex justify-center xs:mt-1 sm:mt-1 md:mt-2 lg:mt-3 xl:mt-4">
-          <div className="md:w-11/12 w-full">
+          <div className="md:w-11/12 w-11/12">
             <Slider {...settings}>
               {testimonialsData.map((item) => (
                 <Testimonial key={item.id} testimonialTypes={item} />
