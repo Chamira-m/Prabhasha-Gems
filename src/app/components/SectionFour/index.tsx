@@ -27,7 +27,7 @@ function SectionFour() {
               <h2 className="uppercase md:text-[20px] lg:text-[24px] xl:text-[40px] text-darkMint text-right font-mulish-extraBold">
                 Timeless Gifts
               </h2>
-              <p className="md:text-[10px] lg:text-[14px] xl:text-base text-blueGray text-justify mt-2 font-mulish-lightItalic ml-4">
+              <p className="md:text-[10px] lg:text-[13px] xl:text-base text-blueGray text-justify mt-2 font-mulish-lightItalic ml-4">
                 Make every celebration unforgettable with our collection of
                 timeless gifts. Thoughtfully curated and beautifully crafted,
                 each piece is designed to elevate any occasion, turning special

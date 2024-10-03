@@ -41,8 +41,8 @@ const SectionOne = () => {
     <>
       <div className="md:block hidden w-full ">
         <div className="grid grid-cols-2">
-          <div>
-            <div className="grid grid-cols-2 md:gap-3 lg:gap-3 xl:gap-4">
+          <div className="flex flex-col items-center">
+            <div className="grid grid-cols-2 md:gap-5 lg:gap-6 xl:gap-10">
               {limitedProducts.map((product) => (
                 <SingleProductCard
                   key={product.id}

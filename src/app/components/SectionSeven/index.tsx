@@ -109,8 +109,8 @@ const SectionSeven = () => {
             </Link>
           </div>
         </div>
-        <div>
-          <div className="flex flex-row xs:justify-center md:justify-end md:px-3 xs:mt-3 md:mt-0">
+        <div className="flex flex-col items-center md:ml-3">
+          <div className="flex flex-row xs:justify-center md:justify-end xs:mt-3 md:mt-0">
             <div className="grid grid-cols-3 xs:gap-2 sm:gap-3 md:gap-3 lg:gap-3 xl:gap-4">
               <Image
                 className="xs:w-[102px] xs:h-[102px] sm:w-[110px] sm:[110px] md:w-[110px] md:h-[110px] lg:w-[150px] lg:h-[150px] xl:w-[180px] xl:h-[180px]"
