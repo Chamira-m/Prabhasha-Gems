@@ -27,7 +27,7 @@ function SectionFour() {
               <h2 className="uppercase md:text-[20px] lg:text-[24px] xl:text-[40px] text-darkMint text-right font-mulish-extraBold">
                 Timeless Gifts
               </h2>
-              <p className="md:text-[10px] lg:text-[13px] xl:text-base text-blueGray text-justify mt-2 font-mulish-lightItalic ml-4">
+              <p className="md:text-[9px] lg:text-[12px] xl:text-[15px] text-blueGray text-justify md:mt-1 lg:mt-1 xl:mt-2 font-mulish-lightItalic ml-4">
                 Make every celebration unforgettable with our collection of
                 timeless gifts. Thoughtfully curated and beautifully crafted,
                 each piece is designed to elevate any occasion, turning special
@@ -37,12 +37,12 @@ function SectionFour() {
                 beauty that captivates, find the perfect gift to express your
                 heart and leave a lasting impression.
               </p>
-              <div className="md:mt-2 lg:mt-5 xl:mt-8 flex justify-center">
+              <div className="md:mt-2 lg:mt-3 xl:mt-4 flex justify-center">
                 <Link
                   href="/about"
                   className="uppercase inline-block px-4 py-2 text-center font-mulish-semibold  text-blueGray border border-blueGray hover:bg-blueGray  hover:text-white transition-colors duration-300 ease-in-out 
-                  md:text-[10px] md:px-4 md:py-2
-            lg:text-[12px] lg:px-5 lg:py-2.5
+                  md:text-[10px] md:px-4 md:py-1
+            lg:text-[12px] lg:px-5 lg:py-2
             xl:text-[15px] xl:px-6 xl:py-3"
                 >
                   EXPLORE GIFTS
@@ -72,7 +72,7 @@ function SectionFour() {
               loading="lazy"
             />
             <div>
-              <p className="xs:text-[8px] sm:text-[10px] text-blueGray text-justify mt-2 font-mulish-lightItalic ml-2">
+              <p className="xs:text-[7px] sm:text-[9px] text-blueGray text-justify mt-2 font-mulish-lightItalic ml-2">
                 Make every celebration unforgettable with our collection of
                 timeless gifts. Thoughtfully curated and beautifully crafted,
                 each piece is designed to elevate any occasion, turning special
