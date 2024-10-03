@@ -64,7 +64,7 @@ const Footer = () => {
               Privacy policy
             </h1>
             <h1 className="uppercase md:text-[8px] lg:text-[9px] xl:text-[15px] font-mulish-regular text-lightGray">
-              Frequently asked questions
+              FAQ
             </h1>
           </div>
           <div className="col-span-2">
@@ -154,7 +154,7 @@ const Footer = () => {
                 Privacy policy
               </h1>
               <h1 className="uppercase text-[7px] font-mulish-regular text-lightGray">
-                Frequently asked questions
+                FAQ
               </h1>
             </div>
           </div>

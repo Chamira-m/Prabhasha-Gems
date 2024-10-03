@@ -134,8 +134,8 @@ const SectionOne = () => {
           <Link
             href="/about"
             className="uppercase inline-block text-center font-mulish-semibold text-lightGray bg-white border border-lightGray hover:bg-lightGray hover:text-white transition-colors duration-300 ease-in-out
-             xs:text-[7px] xs:px-2 xs:py-1 xs:w-[70px]
-             sm:text-[8px] sm:px-3 sm:py-1.5 sm:w-[80px]
+             xs:text-[7px] xs:px-2 xs:py-1
+             sm:text-[8px] sm:px-3 sm:py-1.5
             "
           >
             Explore More
