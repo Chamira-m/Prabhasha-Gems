@@ -7,10 +7,11 @@ import SectionFour from "./components/SectionFour";
 import SectionFive from "./components/SectionFive";
 import SectionSix from "./components/SectionSix";
 import SectionSeven from "./components/SectionSeven";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col">
       <Video />
       <CategoryCards />
       <SectionOne />
@@ -20,6 +21,7 @@ export default function Home() {
       <SectionFive />
       <SectionSix />
       <SectionSeven />
+      <Footer />
     </div>
   );
 }
