@@ -133,7 +133,7 @@ const SectionOne = () => {
         <div className="mt-8 flex justify-center">
           <Link
             href="/about"
-            className="uppercase inline-block text-center font-mulish-semibold text-lightGray bg-white border border-lightGray hover:bg-lightGray hover:text-white transition-colors duration-300 ease-in-out
+            className="uppercase inline-block text-center font-mulish-semibold text-lightGray border border-lightGray hover:bg-lightGray hover:text-white transition-colors duration-300 ease-in-out
              xs:text-[7px] xs:px-2 xs:py-1
              sm:text-[8px] sm:px-3 sm:py-1.5
             "
