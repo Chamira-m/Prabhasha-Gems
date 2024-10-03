@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="md:block hidden mt-5 bg-darkBlue lg:-mx-10 -mx-5">
         <div className="grid grid-cols-5 mx-5 lg:mx-10 md:pt-6 lg:pt-7 xl:pt-10 md:pb-7 lg:pb-8 xl:pb-12">
           <div className="flex flex-col">
-            <h1 className="uppercase md:text-[10px] lg:text-[12px] xl:text-[18px] font-mulish-bold text-[#ffffff] mb-3">
+            <h1 className="uppercase md:text-[10px] lg:text-[12px] xl:text-[18px] font-mulish-bold text-[#FFFFFF] mb-3">
               Products
             </h1>
             <h1 className="uppercase md:text-[8px] lg:text-[9px] xl:text-[15px] font-mulish-regular text-lightGray">
@@ -28,7 +28,7 @@ const Footer = () => {
             </h1>
           </div>
           <div className="flex flex-col">
-            <h1 className="uppercase md:text-[10px] lg:text-[12px] xl:text-[18px] font-mulish-bold text-[#ffffff] mb-3">
+            <h1 className="uppercase md:text-[10px] lg:text-[12px] xl:text-[18px] font-mulish-bold text-[#FFFFFF] mb-3">
               Client Care
             </h1>
             <h1 className="uppercase md:text-[8px] lg:text-[9px] xl:text-[15px] font-mulish-regular text-lightGray">
@@ -48,7 +48,7 @@ const Footer = () => {
             </h1>
           </div>
           <div className="flex flex-col">
-            <h1 className="uppercase md:text-[10px] lg:text-[12px] xl:text-[18px] font-mulish-bold text-[#ffffff] mb-3">
+            <h1 className="uppercase md:text-[10px] lg:text-[12px] xl:text-[18px] font-mulish-bold text-[#FFFFFF] mb-3">
               Our Company
             </h1>
             <h1 className="uppercase md:text-[8px] lg:text-[9px] xl:text-[15px] font-mulish-regular text-lightGray">
@@ -93,7 +93,7 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-3 mx-5">
           <div className="flex flex-col items-start">
-            <h1 className="uppercase text-[8px] font-mulish-bold text-[#ffffff] mb-1">
+            <h1 className="uppercase text-[8px] font-mulish-bold text-[#FFFFFF] mb-1">
               Products
             </h1>
             <div className="flex flex-col items-start">
@@ -115,7 +115,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col items-center">
-            <h1 className="uppercase text-[8px] font-mulish-bold text-[#ffffff] mb-1">
+            <h1 className="uppercase text-[8px] font-mulish-bold text-[#FFFFFF] mb-1">
               Client Care
             </h1>
             <div className="flex flex-col items-center">
@@ -137,7 +137,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col items-end">
-            <h1 className="uppercase text-[8px] font-mulish-bold text-[#ffffff] mb-1">
+            <h1 className="uppercase text-[8px] font-mulish-bold text-[#FFFFFF] mb-1">
               Our Company
             </h1>
             <div className="flex flex-col items-end">

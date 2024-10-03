@@ -45,7 +45,7 @@ const Video = () => {
 
   return (
     <div
-      className="wow fadeInUp overflow-hidden rounded-xl w-full lg:mt-72 md:mt-36 mt-36"
+      className="wow fadeInUp overflow-hidden rounded-xl w-full xl:mt-60 lg:mt-36 md:mt-36 mt-24"
       data-wow-delay=".15s"
       ref={videoRef}
     >
