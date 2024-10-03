@@ -131,7 +131,7 @@ const SectionSix = () => {
         </p>
       </div>
       {isMounted && (
-        <div className="w-full xs:mt-1 sm:mt-1 md:mt-2 lg:mt-3 xl:mt-4">
+        <div className="xs:mt-1 sm:mt-1 md:mt-2 lg:mt-3 xl:mt-4">
           <Slider {...settings}>
             {testimonialsData.map((item) => (
               <Testimonial key={item.id} testimonialTypes={item} />
