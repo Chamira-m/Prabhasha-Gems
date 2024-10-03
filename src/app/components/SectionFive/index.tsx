@@ -38,8 +38,12 @@ const SectionFive = () => {
         <div className="mt-8 flex justify-center">
           <Link
             href="/about"
-            className="uppercase md:w-[100px] md:h-[28px] lg:w-[150px] lg:h-[34px] xl:w-[140px] xl:h-[40px] md:text-[10px] lg:text-[12px] xl:text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
+            className="uppercase inline-block px-4 py-2 text-center font-mulish-semibold text-lightGray border border-lightGray hover:bg-lightGray hover:text-white transition-colors duration-300 ease-in-out
+                       md:text-[10px] md:px-4 md:py-2
+            lg:text-[12px] lg:px-5 lg:py-2.5
+            xl:text-[15px] xl:px-6 xl:py-3"
           >
+            {" "}
             About Us
           </Link>
         </div>
@@ -141,7 +145,9 @@ const SectionFive = () => {
         <div className="mt-3 flex justify-center">
           <Link
             href="/about"
-            className="uppercase w-[67px] h-[20px] outline bg-white text-center p-1 font-semibold xs:text-[7px] sm:text-[9px] text-lightGray "
+            className="uppercase inline-block px-4 py-2 text-center font-mulish-semibold text-lightGray border border-lightGray hover:bg-lightGray hover:text-white transition-colors duration-300 ease-in-out
+            xs:text-[7px] xs:px-2 xs:py-1
+            sm:text-[8px] sm:px-3 sm:py-1.5"
           >
             About Us
           </Link>

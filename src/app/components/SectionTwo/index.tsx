@@ -100,8 +100,12 @@ function SectionTwo() {
         <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
-            className="uppercase font-mulish-semiBold md:w-[150px] md:h-[24px] lg:w-[180px] lg:h-[36px] xl:w-[210px] xl:h-[36px] md:text-[9px] lg:text-[12px] xl:text-[15px] outline bg-white md:p-1 lg:p-2 text-center font-semibold text-lightGray "
+            className="uppercase inline-block px-4 py-2 text-center font-mulish-semiBold text-lightGray border border-lightGray hover:bg-lightGray hover:text-white transition-colors duration-300 ease-in-out
+            md:text-[10px] md:px-4 md:py-2
+            lg:text-[12px] lg:px-5 lg:py-2.5
+            xl:text-[15px] xl:px-6 xl:py-3"
           >
+            {" "}
             FIND MORE SAPPHIRES
           </Link>
         </div>
@@ -144,7 +148,10 @@ function SectionTwo() {
         <div className="mt-8 mb-5 flex justify-center">
           <Link
             href="/about"
-            className="uppercase font-mulish-semiBold w-[110px] h-[20px] outline bg-white text-center py-1 font-semibold text-[7px] text-lightGray "
+            className="uppercase inline-block px-4 py-2 text-center font-mulish-semibold text-lightGray border border-lightGray hover:bg-lightGray hover:text-white transition-colors duration-300 ease-in-out
+            xs:text-[7px] xs:px-2 xs:py-1
+            sm:text-[8px] sm:px-3 sm:py-1.5
+          "
           >
             FIND MORE SAPPHIRES
           </Link>

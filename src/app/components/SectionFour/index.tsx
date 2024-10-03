@@ -40,7 +40,10 @@ function SectionFour() {
               <div className="md:mt-2 lg:mt-5 xl:mt-8 flex justify-center">
                 <Link
                   href="/about"
-                  className="uppercase font-mulish-semiBold md:w-[100px] md:h-[24px] lg:w-[110px] lg:h-[28px] xl:w-[143px] xl:h-[32px] outline bg-white text-center py-1 font-semibold md:text-[9px] lg:text-[11px] xl:text-[15px] text-blueGray"
+                  className="uppercase inline-block px-4 py-2 text-center font-mulish-semibold  text-blueGray border border-blueGray hover:bg-blueGray  hover:text-white transition-colors duration-300 ease-in-out 
+                  md:text-[10px] md:px-4 md:py-2
+            lg:text-[12px] lg:px-5 lg:py-2.5
+            xl:text-[15px] xl:px-6 xl:py-3"
                 >
                   EXPLORE GIFTS
                 </Link>
@@ -82,7 +85,10 @@ function SectionFour() {
               <div className="mt-2 flex justify-self-stretch ml-2">
                 <Link
                   href="/about"
-                  className="uppercase font-mulish-semiBold xs:w-[70px] xs:h-[18px] outline bg-white text-center py-1 font-semibold xs:text-[7px] sm:text-[9px] text-blueGray"
+                  className="uppercase inline-block text-center font-mulish-semiBold border bg-lightMint text-blueGray border-blueGray hover:bg-blueGray hover:text-white transition-colors duration-300 ease-in-out
+                  xs:text-[7px] xs:px-2 xs:py-1 xs:w-[80px]
+                  sm:text-[9px] sm:px-3 sm:py-1.5 sm:w-[77px]
+            "
                 >
                   EXPLORE GIFTS
                 </Link>

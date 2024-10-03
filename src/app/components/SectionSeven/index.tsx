@@ -177,7 +177,12 @@ const SectionSeven = () => {
           <div className="xs:mt-4 sm:mt-3 md:mt-4 lg:mt-5 xl:mt-8 flex justify-center">
             <Link
               href="/about"
-              className="uppercase w-[110px] h-[28px] md:w-[120px] md:h-[28px] lg:w-[130px] lg:h-[34px] xl:w-[160px] xl:h-[40px] text-[7px] md:text-[10px] lg:text-[12px] xl:text-[15px] outline bg-white p-2 text-center font-semibold text-lightGray "
+              className="uppercase inline-block px-4 py-2 text-center font-mulish-semibold text-lightGray border border-lightGray hover:bg-lightGray hover:text-white transition-colors duration-300 ease-in-out
+             xs:text-[7px] xs:px-2 xs:py-1
+             sm:text-[8px] sm:px-3 sm:py-1.5
+             md:text-[10px] md:px-4 md:py-2
+             lg:text-[12px] lg:px-5 lg:py-2.5
+             xl:text-[15px] xl:px-6 xl:py-3"
             >
               Visit instagram
             </Link>
