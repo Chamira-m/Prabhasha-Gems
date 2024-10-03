@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Section3 from "../../../public/images/home/section3.png";
+import Section31 from "../../../public/images/home/section31.png";
 import SingleProductCard from "../Common/SingleProductCard";
 import { singleProductcardType } from "../types/singleProductcardType";
 import single from "../../../public/images/home/singleCard1.png";
@@ -41,7 +41,7 @@ function SectionThree() {
         <div className="grid grid-cols-2">
           <Image
             className="md:w-full md:h-[400px] lg:w-full lg:h-[600px] xl:w-full xl:h-[770px] px-3"
-            src={Section3}
+            src={Section31}
             alt="ImageOne"
             width={500}
             height={300}
@@ -95,7 +95,7 @@ function SectionThree() {
           <div className="col-span-1">
             <Image
               className=" w-full h-[147px]"
-              src={Section3}
+              src={Section31}
               alt="ImageOne"
               width={500}
               height={300}
