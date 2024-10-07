@@ -167,7 +167,7 @@ export const Navbar = () => {
             <div key={menu.title} className="relative group">
               <Link
                 href={menu.path}
-                className="hover:text-gray-700 text-darkMint font-mulish-extraBold text-[18px] uppercase"
+                className="hover:text-gray-700 text-darkMint font-mulish-semiBold text-[18px] uppercase"
               >
                 {menu.title}
               </Link>
