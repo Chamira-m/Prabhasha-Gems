@@ -12,7 +12,7 @@ const SingleProductCard = ({
   return (
     <div className="bg-[#FFFFFF] rounded-xl shadow-md xs:w-[150px] xs:h-52 sm:w-44 sm:h-56 md:w-36 md:h-48 lg:w-[200px] lg:h-[320px] xl:w-[250px] xl:h-[350px] 2xl:w-[288px] 2xl:h-[393px] flex flex-col items-center justify-center ">
       <Image
-        className="object-cover xs:w-full xs:h-36 sm:w-full sm:h-36 md:w-full md:h-56 lg:w-full lg:h-60 xl:w-full xl:h-72 2xl:w-full 2xl:h-72 rounded-t-xl"
+        className="object-cover xs:w-full xs:h-full sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-full xl:w-full xl:h-full 2xl:w-full 2xl:h-full rounded-t-xl"
         src={image}
         alt={title}
         width={500}
