@@ -58,9 +58,9 @@ const Header = () => {
               
                 src={Logo}
                 alt="Logo"
-                width={228}
-                height={134}
-                className="xl:block hidden xl:w-[182px] xl:h-[107px]"
+                width={500}
+                height={300}
+                className="xl:block hidden xl:w-[182px] xl:h-[107px] 2xl:w-[228px] 2xl:h-[134px]"
               />
             </Link>
             <Link href="/">
@@ -78,25 +78,25 @@ const Header = () => {
           <div className="relative flex flex-col h-full">
             <div className="absolute right-0 flex gap-3 p-2">
               <Image
-                className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px]"
+                className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px] 2xl:w-[24px] 2xl:h-[24px]"
                 src={Search}
                 alt="Search"
-                width={24}
-                height={24}
+               width={500}
+                height={300}
               />
               <Image
-                className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px]"
+                className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px] 2xl:w-[24px] 2xl:h-[24px]"
                 src={Cart}
                 alt="Cart"
-                width={24}
-                height={24}
+               width={500}
+                height={300}
               />
               <Image
-                className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px]"
+                className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px] 2xl:w-[24px] 2xl:h-[24px]"
                 src={Profile}
                 alt="Profile"
-                width={24}
-                height={24}
+               width={500}
+                height={300}
               />
               <Image
                 className="cursor-pointer block xl:hidden"

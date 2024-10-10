@@ -167,7 +167,7 @@ export const Navbar = () => {
             <div key={menu.title} className="relative group">
               <Link
                 href={menu.path}
-                className="hover:text-gray-700 text-darkMint font-mulish-semiBold text-[18px] uppercase"
+                className="hover:text-gray-700 text-darkMint font-mulish-semiBold xl:text-[16px] 2xl:text-[18px] uppercase"
               >
                 {menu.title}
               </Link>
@@ -180,7 +180,7 @@ export const Navbar = () => {
                     >
                       <Link
                         href={submenu.path}
-                        className="block hover:text-gray-700 text-darkBlue font-mulish-medium uppercase"
+                        className="block hover:text-gray-700 text-darkBlue font-mulish-medium xl:text-[14px] 2xl:text-[16px] uppercase"
                       >
                         {submenu.title}
                       </Link>
@@ -190,7 +190,7 @@ export const Navbar = () => {
                             <Link
                               key={sub2menu.title}
                               href={sub2menu.path}
-                              className="block hover:text-gray-700 text-blueGray font-mulish-medium uppercase text-sm py-1"
+                              className="block hover:text-gray-700 text-blueGray font-mulish-medium uppercase xl:text-[12px] 2xl:text-[14px] py-1"
                             >
                               {sub2menu.title}
                             </Link>
