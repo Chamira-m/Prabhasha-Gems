@@ -52,14 +52,15 @@ const Header = () => {
           </div>
 
           {/* Logo */}
-          <div className="flex justify-center">
+          <div className="flex justify-center ">
             <Link href="/">
               <Image
+              
                 src={Logo}
                 alt="Logo"
                 width={228}
                 height={134}
-                className="xl:block hidden"
+                className="xl:block hidden xl:w-[182px] xl:h-[107px]"
               />
             </Link>
             <Link href="/">
@@ -75,23 +76,23 @@ const Header = () => {
 
           {/* Right Side Icons */}
           <div className="relative flex flex-col h-full">
-            <div className="absolute bottom-0 right-0 flex gap-3 p-2">
+            <div className="absolute right-0 flex gap-3 p-2">
               <Image
-                className="cursor-pointer xl:block hidden"
+                className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px]"
                 src={Search}
                 alt="Search"
                 width={24}
                 height={24}
               />
               <Image
-                className="cursor-pointer xl:block hidden"
+                className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px]"
                 src={Cart}
                 alt="Cart"
                 width={24}
                 height={24}
               />
               <Image
-                className="cursor-pointer xl:block hidden"
+                className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px]"
                 src={Profile}
                 alt="Profile"
                 width={24}
