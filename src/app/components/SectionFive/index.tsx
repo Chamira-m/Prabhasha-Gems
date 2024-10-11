@@ -41,7 +41,7 @@ const SectionFive = () => {
 
         <div className="flex flex-row md:gap-3 lg:gap-3 xl:gap-4 2xl:gap-5 3xl:gap-6 4xl:gap-7 md:mt-4 lg:mt-5 xl:mt-6 2xl:mt-7 3xl:mt-8 4xl:mt-9 justify-center">
           <Image
-            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] 2xl:w-[420px] 2xl:h-[420px] 3xl:w-[500px] 3xl:h-[500px] 4xl:w-[550px] 4xl:h-[550px] rounded-[20px]"
+            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[420px] xl:h-[420px] 2xl:w-[430px] 2xl:h-[430px] 3xl:w-[570px] 3xl:h-[570px] 4xl:w-[600px] 4xl:h-[600px] rounded-[20px]"
             src={ImageOne}
             alt="ImageOne"
             width={500}
@@ -51,7 +51,7 @@ const SectionFive = () => {
             loading="lazy"
           />
           <Image
-            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] 2xl:w-[420px] 2xl:h-[420px] 3xl:w-[500px] 3xl:h-[500px] 4xl:w-[550px] 4xl:h-[550px] rounded-[20px]"
+            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[420px] xl:h-[420px] 2xl:w-[430px] 2xl:h-[430px] 3xl:w-[570px] 3xl:h-[570px] 4xl:w-[600px] 4xl:h-[600px] rounded-[20px]"
             src={ImageTwo}
             alt="ImageOne"
             width={500}
@@ -61,7 +61,7 @@ const SectionFive = () => {
             loading="lazy"
           />
           <Image
-            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] 2xl:w-[420px] 2xl:h-[420px] 3xl:w-[500px] 3xl:h-[500px] 4xl:w-[550px] 4xl:h-[550px] rounded-[20px]"
+            className="md:w-[233px] md:h-[233px] lg:w-[300px] lg:h-[300px] xl:w-[420px] xl:h-[420px] 2xl:w-[430px] 2xl:h-[430px] 3xl:w-[570px] 3xl:h-[570px] 4xl:w-[600px] 4xl:h-[600px] rounded-[20px]"
             src={ImageThree}
             alt="ImageOne"
             width={500}
