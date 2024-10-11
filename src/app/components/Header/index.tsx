@@ -37,13 +37,12 @@ const Header = () => {
   }, [lastScrollY]);
   return (
     <>
-      {/* Fixed Header */}
       <div
         className={`fixed top-0 left-0 w-full bg-white z-50 shadow-md transition-transform duration-300 ${
           isVisible ? "translate-y-0" : "-translate-y-full"
         }`}
       >
-        <div className="grid grid-cols-3 gap-3 items-center py-4 px-6">
+        <div className="grid grid-cols-3 gap-3 items-center py-1 px-6">
           {/* Mobile Menu */}
           <div>
             <div className="block xl:hidden">
@@ -51,11 +50,9 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Logo */}
           <div className="flex justify-center ">
             <Link href="/">
               <Image
-              
                 src={Logo}
                 alt="Logo"
                 width={500}
@@ -78,24 +75,24 @@ const Header = () => {
           <div className="relative flex flex-col h-full">
             <div className="absolute right-0 flex gap-3 p-2">
               <Image
-                className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px] 2xl:w-[24px] 2xl:h-[24px]"
+                className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px] 2xl:w-[24px] 2xl:h-[24px] 3xl:w-[24px] 3xl:h-[24px]"
                 src={Search}
                 alt="Search"
-               width={500}
+                width={500}
                 height={300}
               />
               <Image
                 className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px] 2xl:w-[24px] 2xl:h-[24px]"
                 src={Cart}
                 alt="Cart"
-               width={500}
+                width={500}
                 height={300}
               />
               <Image
                 className="cursor-pointer xl:block hidden xl:w-[19px] xl:h-[19px] 2xl:w-[24px] 2xl:h-[24px]"
                 src={Profile}
                 alt="Profile"
-               width={500}
+                width={500}
                 height={300}
               />
               <Image
@@ -129,11 +126,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-
-      {/* Main Content (Account for Header Height) */}
-      {/* <div className="pt-24"> */}
-      {/* The rest of your page content goes here */}
-      {/* </div> */}
     </>
   );
 };

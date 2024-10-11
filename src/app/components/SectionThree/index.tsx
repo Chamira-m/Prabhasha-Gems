@@ -4,7 +4,7 @@ import Section31 from "../../../public/images/home/section31.png";
 import SingleProductCard from "../Common/SingleProductCard";
 import { singleProductcardType } from "../types/singleProductcardType";
 import single from "../../../public/images/home/singleCard1.png";
-import Link from "next/link";
+import Button from "../Common/Button";
 
 function SectionThree() {
   const singleProdutData: singleProductcardType[] = [
@@ -40,7 +40,7 @@ function SectionThree() {
         {" "}
         <div className="grid grid-cols-2">
           <Image
-            className="md:w-full md:h-[400px] lg:w-full lg:h-[600px] xl:w-full xl:h-[770px] px-3"
+            className="w-full md:h-[400px] lg:h-[600px] xl:h-[690px] 2xl:h-[740px] 3xl:h-[810px] 4xl:h-[860px] md:px-3 lg:p-4 xl:p-5 2xl:p-6 3xl:p-7 4xl:p-8"
             src={Section31}
             alt="ImageOne"
             width={500}
@@ -50,16 +50,16 @@ function SectionThree() {
             loading="lazy"
           />
           <div className="text-center">
-            <h2 className="uppercase md:text-[18px] lg:text-[30px] xl:text-[40px] text-darkBlue font-mulish-semiBold">
-              <span className="text-darkMint md:text-[18px] lg:text-[30px] xl:text-[40px] font-mulish-extraBold">
+            <h2 className="uppercase md:text-[18px] lg:text-[30px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[44px] 4xl:text-[52px] text-darkBlue font-mulish-semiBold">
+              <span className="text-darkMint md:text-[18px] lg:text-[30px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[44px] 4xl:text-[52px] font-mulish-extraBold">
                 Fine Jewelry
               </span>
               <span> for Life’s</span>
             </h2>
-            <h2 className="uppercase md:text-[18px] lg:text-[30px] xl:text-[40px] text-darkBlue font-mulish-semiBold gap-4">
+            <h2 className="uppercase md:text-[18px] lg:text-[30px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[44px] 4xl:text-[52px] text-darkBlue font-mulish-semiBold gap-4">
               Finest Moments
             </h2>
-            <div className=" flex justify-between flex-wrap ml-10 lg:mt-3 xl:mt-4">
+            <div className="flex justify-center flex-wrap gap-5 md:gap-7 lg:gap-7 xl:gap-10 2xl:gap-12 3xl:gap-16 4xl:gap-20 mt-2">
               {limitedProducts.map((product) => (
                 <SingleProductCard
                   key={product.id}
@@ -67,7 +67,7 @@ function SectionThree() {
                 />
               ))}
             </div>
-            <p className="md:text-[10px] lg:text-[12px] xl:text-[16px] text-blueGray text-justify md:mt-2 lg:mt-6 xl:mt-10 font-mulish-lightItalic">
+            <p className="md:text-[10px] lg:text-[12px] xl:text-[14px] 2xl:text-[15px] 3xl:text-[17px] 4xl:text-[19px] text-blueGray text-justify md:mt-4 lg:mt-6 xl:mt-10 2xl:mt-11 3xl:mt-10 4xl:mt-16 font-mulish-lightItalic">
               Celebrate life’s most precious moments with our exquisite fine
               jewelry. Each piece is thoughtfully designed and meticulously
               crafted to honor the milestones that matter most. Whether it’s a
@@ -76,16 +76,8 @@ function SectionThree() {
               unforgettable. Embrace the luxury and beauty that define life’s
               finest moments.
             </p>
-            <div className="mt-8 flex justify-center">
-              <Link
-                href="/about"
-                className="uppercase inline-block px-4 py-2 text-center font-mulish-semibold text-lightGray border border-lightGray hover:bg-lightGray hover:text-white transition-colors duration-300 ease-in-out
-                md:text-[10px] md:px-4 md:py-2
-                lg:text-[12px] lg:px-5 lg:py-2.5
-                xl:text-[15px] xl:px-6 xl:py-3"
-              >
-                FIND MORE FINE JEWELRY
-              </Link>
+            <div className="md:mt-5 lg:mt-6 xl:mt-7 2xl:mt-8 3xl:mt-9 4xl:mt-10  mb-5 flex justify-center">
+              <Button link="/about" title="FIND MORE FINE JEWELRY" />
             </div>
           </div>
         </div>
@@ -94,7 +86,7 @@ function SectionThree() {
         <div className="grid grid-cols-3">
           <div className="col-span-1">
             <Image
-              className=" w-full h-[147px]"
+              className=" w-full h-[130px] xs:h-[147px] sm:h-[160px]"
               src={Section31}
               alt="ImageOne"
               width={500}
@@ -105,16 +97,16 @@ function SectionThree() {
             />
           </div>
           <div className="col-span-2 text-left ml-2">
-            <h2 className="uppercase text-[17px] text-darkBlue font-mulish-semiBold">
-              <span className="text-darkMint text-[17px] font-mulish-extraBold ">
+            <h2 className="uppercase text-[15px] xs:text-[17px] sm:text-[19px] text-darkBlue font-mulish-semiBold">
+              <span className="text-darkMint text-[15px] xs:text-[17px] sm:text-[19px] font-mulish-extraBold ">
                 Fine Jewelry
               </span>
               <span> for Life’s</span>
             </h2>
-            <h2 className="uppercase text-[17px] text-darkBlue font-mulish-semiBold gap-4">
+            <h2 className="uppercase text-[15px] xs:text-[17px] sm:text-[19px] text-darkBlue font-mulish-semiBold gap-4">
               Finest Moments
             </h2>
-            <p className="text-[8px] text-blueGray mt-3 text-justify font-mulish-lightItalic">
+            <p className="text-[7px] xs:text-[8px] sm:text-[9px] text-blueGray mt-3 text-justify font-mulish-lightItalic">
               Celebrate life’s most precious moments with our exquisite fine
               jewelry. Each piece is thoughtfully designed and meticulously
               crafted to honor the milestones that matter most. Whether it’s a
@@ -125,7 +117,7 @@ function SectionThree() {
             </p>
           </div>
         </div>
-        <div className=" flex justify-center flex-wrap mt-4 gap-7">
+        <div className=" flex justify-center flex-wrap mt-4 gap-9 xs:gap-10 sm:gap-12">
           {limitedProducts.map((product) => (
             <SingleProductCard
               key={product.id}
@@ -133,16 +125,8 @@ function SectionThree() {
             />
           ))}
         </div>
-        <div className="mt-8 flex justify-center mb-2">
-          <Link
-            href="/about"
-            className="uppercase inline-block px-4 py-2 text-center font-mulish-semibold text-lightGray border border-lightGray hover:bg-lightGray hover:text-white transition-colors duration-300 ease-in-out
-            xs:text-[7px] xs:px-2 xs:py-1
-            sm:text-[8px] sm:px-3 sm:py-1.5
-            "
-          >
-            FIND MORE FINE JEWELRY
-          </Link>
+        <div className="mt-3 xs:mt-5 sm:mt-7 mb-5 flex justify-center">
+          <Button link="/about" title="FIND MORE FINE JEWELRY" />
         </div>
       </div>
     </>

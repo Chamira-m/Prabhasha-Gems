@@ -162,12 +162,12 @@ export const Navbar = () => {
         </button>
 
         {/* Desktop Menu */}
-        <nav className="hidden xl:flex items-center space-x-20">
+        <nav className="hidden xl:flex items-center space-x-20 3xl:space-x-24">
           {menuData.map((menu) => (
             <div key={menu.title} className="relative group">
               <Link
                 href={menu.path}
-                className="hover:text-gray-700 text-darkMint font-mulish-semiBold xl:text-[16px] 2xl:text-[18px] uppercase"
+                className="hover:text-gray-700 text-darkMint font-mulish-semiBold xl:text-[16px] 2xl:text-[18px] 3xl:text-[20px] uppercase"
               >
                 {menu.title}
               </Link>
@@ -180,7 +180,7 @@ export const Navbar = () => {
                     >
                       <Link
                         href={submenu.path}
-                        className="block hover:text-gray-700 text-darkBlue font-mulish-medium xl:text-[14px] 2xl:text-[16px] uppercase"
+                        className="block hover:text-gray-700 text-darkBlue font-mulish-medium xl:text-[14px] 2xl:text-[16px] 3xl:text-[18px] uppercase"
                       >
                         {submenu.title}
                       </Link>

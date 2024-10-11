@@ -86,7 +86,7 @@ const SectionSix = () => {
 
   return (
     <>
-      <div className="md:block hidden xl:mt-5 lg:mt-4 md:mt-3 mb-10">
+      <div className="md:block hidden  md:mt-5 lg:mt-6 xl:mt-7 2xl:mt-8 3xl:mt-9 4xl:mt-10 mb-10">
         <div className="grid grid-cols-3">
           <div className="col-span-1">
             <h2 className="uppercase md:text-[20px] lg:text-[28px] xl:text-[40px] text-darkMint text-left font-mulish-extraBold">
@@ -111,14 +111,14 @@ const SectionSix = () => {
           </div>
         </div>
       </div>
-      <div className="block md:hidden mt-5">
+      <div className="block md:hidden mt-3 xs:mt-4 sm:mt-5">
         <h2 className="uppercase xs:text-[17px] sm:text-[19px] text-darkMint text-center font-mulish-extraBold">
           Crafting Trust
         </h2>
         <h2 className="uppercase xs:text-[17px] sm:text-[19px] xl:text-[40px] font-bold text-blueGray text-center font-mulish-semiBold">
           One Gem at a Time
         </h2>
-        <p className="xs:text-[8px] sm:text-[10px] text-blueGray text-justify mt-2 font-mulish-lightItalic">
+        <p className="text-[7px] xs:text-[8px] sm:text-[10px] text-blueGray text-justify mt-2 font-mulish-lightItalic">
           We believe that jewellery is more than just an accessory; its a
           reflection of your inner confidence and unique style. Each piece in
           our collection is carefully crafted from the finest gemstones and

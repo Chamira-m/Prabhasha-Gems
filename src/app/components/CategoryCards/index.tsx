@@ -31,7 +31,7 @@ const CategoryCards = () => {
   ];
   return (
     <div className=" mx-auto w-full py-8">
-      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 xl:gap-16 3xl:gap-20">
         {categoryCardData.map((item) => (
           <SingleCard key={item.id} categoryCardType={item} />
         ))}
