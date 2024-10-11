@@ -20,7 +20,7 @@ const SectionFive = () => {
             Excellence.
           </span>{" "}
         </h1>
-        <p className="md:text[10px] lg:text-[12px] xl:text-[14px] 2xl:text-[15px] 3xl:text-[22px] 4xl:text-[26px]text-blueGray text-center mt-2 mb-4 font-mulish-lightItalic">
+        <p className="md:text-[10px] lg:text-[12px] xl:text-[14px] 2xl:text-[15px] 3xl:text-[22px] 4xl:text-[26px]text-blueGray text-center mt-2 mb-4 font-mulish-lightItalic">
           For generations, our brand has been synonymous with unparalleled
           craftsmanship and timeless elegance. What began as a small family
           business has blossomed into a trusted name in the world of gems and
@@ -31,7 +31,7 @@ const SectionFive = () => {
           sapphires, ensuring that each gem not only radiates beauty but also
           upholds the highest standards of responsibility and sustainability.
         </p>
-        <p className="md:text[10px] lg:text-[12px] xl:text-[14px] 2xl:text-[15px] 3xl:text-[22px] 4xl:text-[26px] text-blueGray text-center mt-6 mb-4 font-mulish-lightItalic">
+        <p className="md:text-[10px] lg:text-[12px] xl:text-[14px] 2xl:text-[15px] 3xl:text-[22px] 4xl:text-[26px] text-blueGray text-center mt-6 mb-4 font-mulish-lightItalic">
           Discover our rich history, the passion that drives us, and the values
           that continue to guide us by exploring our story
         </p>
